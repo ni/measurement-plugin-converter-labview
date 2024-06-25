@@ -14,6 +14,15 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_Measurement Migrator" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Measurement Plugin Generator" Type="Folder">
+				<Item Name="_Editor" Type="Folder">
+					<Item Name="NI_AB_API_EXE_Extensions" Type="Folder">
+						<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
+					</Item>
+					<Item Name="RenameRefactor" Type="Folder"/>
+					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/MeasurementService Editor.lvlib"/>
+				</Item>
+			</Item>
 			<Item Name="Templates" Type="Folder">
 				<Item Name="Malleable VIs" Type="Folder">
 					<Item Name="Get Resource Details.vim" Type="VI" URL="../_Measurement Migrator/Templates/Malleable VIs/Get Resource Details.vim"/>
@@ -37,14 +46,6 @@
 				<Item Name="InstrumentStudio Project" Type="Folder">
 					<Item Name="PinMap.pinmap" Type="Document" URL="../_Measurement Migrator/Templates/InstrumentStudio Project/PinMap.pinmap"/>
 					<Item Name="Measurement.instudioproj" Type="Document" URL="../_Measurement Migrator/Templates/InstrumentStudio Project/Measurement.instudioproj"/>
-				</Item>
-			</Item>
-			<Item Name="Measurement Plugin Generator" Type="Folder">
-				<Item Name="_Editor" Type="Folder">
-					<Item Name="NI_AB_API_EXE_Extensions" Type="Folder">
-						<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
-					</Item>
-					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/MeasurementService Editor.lvlib"/>
 				</Item>
 			</Item>
 			<Item Name="Migrator" Type="Folder">
@@ -591,8 +592,7 @@
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Connection with Session.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink niDCPower/Connection with Session.ctl"/>
-				<Item Name="Connection.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Session Management V1/Session Reservation/Connection.ctl"/>
+				<Item Name="NI Measurement Plug-In SDK.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Measurements/NI Measurement Plug-In SDK.lvlib"/>
 			</Item>
 			<Item Name="AB_Create_Build_AppInstance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Create_Build_AppInstance.vi"/>
 			<Item Name="AB_Create_Web_Service_Config_File.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Create_Web_Service_Config_File.vi"/>
