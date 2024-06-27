@@ -19,6 +19,7 @@
     - [Measurement UI creation](#measurement-ui-creation)
     - [Measurement Logic Creation](#measurement-logic-creation)
     - [Type Specialization creation](#type-specialization-creation)
+    - [Testing](#testing)
   - [Open Issues/Limitations](#open-issueslimitations)
     - [Future Plans](#future-plans)
 
@@ -33,8 +34,9 @@
 ## Links To Relevant Work Items and Reference Material
 
 - [Feature 2701542: Publish the migration tool in public repo](https://dev.azure.com/ni/DevCentral/_workitems/edit/2701542)
-- [Prototype Source Code](https://github.com/ni/measurement-migration-tool/tree/users/smurugan/migration-tool)
-- [Demo Recording](https://nio365.sharepoint.com/:v:/r/sites/ModernLabReferenceArchitecture/Shared%20Documents/Recordings/Measurement%20Migration%20tool%20-%20LabVIEW/Migration%20Migration%20Utility%20-%20Demo.webm?csf=1&web=1&e=jmFFbq)
+- [Prototype Source Code](https://github.com/ni/measurement-migration-tool/tree/users/smurugan/migration-tool/src/measurement_migration_tool)
+- [Demo Recording](https://nio365.sharepoint.com/:v:/r/sites/ModernLabReferenceArchitecture/Shared%20Documents/Recordings/Measurement%20Migration%20tool%20-%20LabVIEW/Migration%20Migration%20Utility%20-%20Demo.webm?csf=1&web=1&e=jmFFbq)\
+- [Migration Results](https://github.com/ni/measurement-migration-tool/tree/users/smurugan/migration-tool/src/Migration%20Results)
 
 ## How to launch the migration tool
 
@@ -140,20 +142,30 @@ Connect the corresponding channel output and session output of the Get Resource 
 
 For the pin names to be populated in the InstrumentStudio, all the dropdown created for the io controls should be mapped in the TypeSpecialization vi. This is automated by the migration tool. The value in type specialization is created based on the instrument drivers used. Only pin type specialization is supported.
 
+### Testing
+
+1. The tool has been tested with different [sample measurement
+
 ## Open Issues/Limitations
-1. When the dependencies are copied to new location and even if the relative path are maintained as such. Few subVIs and typdefs are not getting relinked to the main vi. Workaround is already in place, but that is not the best approach
-2. Measurement dependencies not part of any library must be placed in the same directory or sub-directories of the measurement
-3. Measurement modules must have at least one control and indicator and should not have more than 26 controls and indicators in total. This is due to the connector pane limitation. Maximum number of connector pane is 28 and 2 of the terminal is allocated for error control and indicator.
-4. Controls and Indicators label names must be unique.
-5. Migration tool supports all the datatypes irrespective of the IS Pro. Post migration, for the unsupported datatype/control, users should update the configuration and results and do a workaround. Find the supported datatypes in IS pro [here](https://www.ni.com/docs/en-US/bundle/measurementlink/page/supported-datatypes.html)
-6. Any string control which has the label `channel` will be considered as channel name control and will not be added to configuration.
-7. For all the unsupported datatype, workaround has to be implemented.
-8. If the io controls are part of the cluster control, they cannot be indentified.
-9.  For all the unsupported datatype, workaround has to be implemented.
-10. The default value for the string will be empty and hence if users add the service IS Pro and click run, empty string will passed to the Measurement Logic and will result in error.
-11. Copy paste functionality between soft panel or teststand will not update the cluster controls value(UI glitch)
-12. The pin to session conversion is not automated. Users should obtain the session details and connect it to the wrapper.
+1. When the dependencies are copied to new location. Few subVIs and typdefs are not getting relinked to theire respective VIs, even if the relative path are maintained. Workaround is already in place, but reason for the issue has to be found.
+2. Measurement dependencies not part of any library must be placed in the same directory or sub-directories of the measurement.
+3. Dependencies which are not part of any library are added to a new library. Sometimes, a error is thrown saying adding these items would cause conflict.
+4. Measurement modules must have at least one control and indicator and should not have more than 26 controls and indicators in total. This is due to the connector pane limitation. Maximum number of connector pane is 28 and 2 of the terminal is allocated for error control and indicator.
+5. Controls and Indicators label names must be unique.
+6. Migration tool supports all the datatypes irrespective of the IS Pro. Post migration, for the unsupported datatype/control, users should update the configuration and results and do a workaround. Find the supported datatypes in IS pro [here](https://www.ni.com/docs/en-US/bundle/measurementlink/page/supported-datatypes.html)
+7. Any string control which has the label `channel` will be considered as channel name control and will not be added to configuration.
+8. For all the unsupported datatype, workaround has to be implemented.
+9. If the io controls are part of the cluster control, they cannot be indentified.
+10. For all the unsupported datatype, workaround has to be implemented.
+11. The default value for the string will be empty and hence if users add the service IS Pro and click run, empty string will passed to the Measurement Logic and will result in error.
+12. Copy paste functionality between soft panel or teststand will not update the cluster controls value(UI glitch)
+13. The pin to session conversion is not automated. Users should obtain the session details and connect it to the wrapper.
 
 ### Future Plans
-1. To automate the workaround implementation for the unsupported datatypes
-2. To migrate multiple measurement at a single run
+1. To automate the workaround implementation for the unsupported datatypes.
+2. To migrate multiple measurement at a single run.
+3. To figure out a way to copy the UI dependencies in the UI library.
+4. Type Specialization - Support for path and enum. Automate type specialization creation for path and enum.
+5. Error Logger Implementation.
+6. Event Logger Improments.
+7. All other minor backlogs are maintained in the [FEATURE: 2688894](https://dev.azure.com/ni/DevCentral/_workitems/edit/2688894)
