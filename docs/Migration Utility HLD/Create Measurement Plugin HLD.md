@@ -43,7 +43,7 @@
 To launch migration tool, Open LabVIEW->Tools->Plug-Ins->Measurement->Migrate Measurements. Migration Tool can be an independent tool.
 
 Cons:
-1. Number of VI packages for InstrumentStudio pro will increase
+1. Number of options shown to the user will increase
 
 ![IndependentTool](IndependentTool.png)
 
@@ -104,7 +104,7 @@ Before migration of the measurement, the measurement along with its dependencies
 
 ### Measurement Configuration and Result control updates
 
-The controls and indicators used in the measurement vi are copied to the configurations and results control respectively except few controls. The controls are io controls, tab controls, cluster controls and any string control related to channel of the instrument names. For all the io controls, a string dropdown is created in the configuration controls. For measurement having tab controls or indicators, the controls and indicators are read recursively and added to the configuration and result control respectively. Since cluster control/indicator is not supported, a string control is created in the measurement configuration and results respectively . The cluster data are serialized to string and passed in the gRPC layer. The implementation of serialization and deserialization is handled in the ui and measurement logic.
+The controls and indicators used in the measurement vi are copied to the configurations and results control respectively except few controls. The controls are tab controls, cluster controls and any string control related to channel of the instrument names. The io controls are replaced with the string dropdown to populate the pin names to pass the pin names from the measurement ui. For measurement having tab controls or indicators, the controls and indicators are read recursively and added to the configuration and result control respectively. Since cluster control/indicator is not supported, a string control is created in the measurement configuration and results respectively . The cluster data are serialized to string and passed in the gRPC layer. The implementation of serialization and deserialization is handled in the ui and measurement logic.
 
 ### Measurement UI creation
 
@@ -116,21 +116,18 @@ Pros:
 
 Cons:
 1. Measurements having splitters will result in the messy Measurement UI.
-2. The UI actions are not migrated with this tool
-
-Discussions
-1. Should the typedef used in the UI be disconnected form the typedef? Since there is separate library for Measurement UI, should the controls be added to the library?
+2. The UI events are not migrated with this tool.
 
 ### Measurement Logic Creation
+
+In the selected measurement, all the controls and indicators are mapped and connected in the connector pane. 
+A wrapper is created for the selected measurement. In the wrapper, Measurement configuration control and measurement results indicator are placed and unbundling the configuration data and bundling the results data is handled. Controls are created for io controls that are used in the measurement and mapped in the connector pane in the wrapper. For cluster control/indicators are serialization and deserialization logic is also implemented by the tool.
 
 There are measurement without any instruments drivers. For measurement without any instrument drivers, the wrapper created is placed directly in the measurement logic vi. For the measurement which uses instrument drivers will always be converted to pin centrics measurement and session manager APIs are placed in the measurement logic. Session manager APIs includes, reserve session, initialize and get connections for the instrument used, close sessions and unreserve session are placed and wired. 
 
 The pin to session conversion is not automated by the migration tool. Users should convert them.
-Ther below is the image of the measurement logic post migration.
+The below is the image of the measurement logic post migration.
 Wire the Pin Names to the corresponding input of the Get Resource Details.vim. Get Resource Details.vim will give the session and channel for the corresponding pin connected.
-
-In the main measurement, all the controls and indicators are mapped and connected in the connector pane. 
-A wrapper is created for the measurement. In the wrapper, Measurement configuration control and measurement results indicator are placed and unbundling the configuration data and bundling the results data is handled. And controls are created for io controls that are used in the measurement and mapped in the connector pane in the wrapper. For cluster control/indicators are serialization and deserialization logic is also implemented by the tool.
 
 ![post_migration1](post_migration1.png)
 
@@ -157,8 +154,10 @@ The tool has been tested with different [sample measurement](https://github.com/
 9. If the io controls are part of the cluster control, they cannot be indentified.
 10. For all the unsupported datatype, workaround has to be implemented.
 11. The default value for the string will be empty and hence if users add the service IS Pro and click run, empty string will passed to the Measurement Logic and will result in error.
-12. Copy paste functionality between soft panel or teststand will not update the cluster controls value(UI glitch)
+12. Copy paste functionality between soft panel or teststand will not update the cluster controls value, since clusters are not supported by the IS Pro.
 13. The pin to session conversion is not automated. Users should obtain the session details and connect it to the wrapper.
+14. The typedef used in the clusters are disconnected from the source. This is because, we have PPL for the ui library and all dependencies are copied the measurement library. So, PPL will not be built or will depend the source files.
+15. Measurement with array of io controls is not handled.
 
 ### Future Plans
 1. To automate the workaround implementation for the unsupported datatypes.
