@@ -48,6 +48,19 @@
 					<Item Name="Measurement.instudioproj" Type="Document" URL="../_Measurement Migrator/Templates/InstrumentStudio Project/Measurement.instudioproj"/>
 				</Item>
 			</Item>
+			<Item Name="Utilities" Type="Folder">
+				<Item Name="Sequence Creation" Type="Folder">
+					<Item Name="Create Sequence.lvlib" Type="Library" URL="../_Measurement Migrator/Utilities/Sequence Creation/Create Sequence.lvlib"/>
+				</Item>
+				<Item Name="Logger Utilities" Type="Folder">
+					<Item Name="Error Logger" Type="Folder">
+						<Item Name="Error Logger.lvlib" Type="Library" URL="../_Measurement Migrator/Utilities/Logger Utilities/Error Logger/Error Logger.lvlib"/>
+					</Item>
+					<Item Name="Event Logger" Type="Folder">
+						<Item Name="Event Logger.lvlib" Type="Library" URL="../_Measurement Migrator/Utilities/Logger Utilities/Event Logger/Event Logger.lvlib"/>
+					</Item>
+				</Item>
+			</Item>
 			<Item Name="Migrator" Type="Folder">
 				<Item Name="Path Functions" Type="Folder">
 					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Path Functions/Path Functions.lvlib"/>
@@ -60,19 +73,6 @@
 				</Item>
 				<Item Name="Migration Logic" Type="Folder">
 					<Item Name="Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Migration Logic/Migrator.lvlib"/>
-				</Item>
-			</Item>
-			<Item Name="Utilities" Type="Folder">
-				<Item Name="Sequence Creation" Type="Folder">
-					<Item Name="Create Sequence.lvlib" Type="Library" URL="../_Measurement Migrator/Utilities/Sequence Creation/Create Sequence.lvlib"/>
-				</Item>
-				<Item Name="Logger Utilities" Type="Folder">
-					<Item Name="Error Logger" Type="Folder">
-						<Item Name="Error Logger.lvlib" Type="Library" URL="../_Measurement Migrator/Utilities/Logger Utilities/Error Logger/Error Logger.lvlib"/>
-					</Item>
-					<Item Name="Event Logger" Type="Folder">
-						<Item Name="Event Logger.lvlib" Type="Library" URL="../_Measurement Migrator/Utilities/Logger Utilities/Event Logger/Event Logger.lvlib"/>
-					</Item>
 				</Item>
 			</Item>
 		</Item>
@@ -748,6 +748,7 @@
 			<Item Name="PLBUIP_CheckForValidExtension.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/PackedLib/PLBUIP_CheckForValidExtension.vi"/>
 			<Item Name="AB_UI_Obtain_Source_Item.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Obtain_Source_Item.vi"/>
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
+			<Item Name="Create String for Cluster in Result.vi" Type="VI" URL="../_Measurement Migrator/Migrator/Reusables/subVIs/Create String for Cluster in Result.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Migration Utility" Type="Source Distribution">

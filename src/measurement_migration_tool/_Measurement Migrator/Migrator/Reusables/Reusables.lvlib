@@ -31,7 +31,6 @@
 			<Item Name="String Name.vi" Type="VI" URL="../subVIs/constants/String Name.vi"/>
 		</Item>
 		<Item Name="Getter" Type="Folder">
-			<Item Name="Get Cluster Reference.vi" Type="VI" URL="../subVIs/Getter/Get Cluster Reference.vi"/>
 			<Item Name="Get Clusters String Name.vi" Type="VI" URL="../subVIs/Getter/Get Clusters String Name.vi"/>
 			<Item Name="Get Code Module Path.vi" Type="VI" URL="../subVIs/Getter/Get Code Module Path.vi"/>
 			<Item Name="Get DAQ Control Name.vi" Type="VI" URL="../subVIs/Getter/Get DAQ Control Name.vi"/>
@@ -62,6 +61,7 @@
 			<Item Name="Set SubroutineInfo.vi" Type="VI" URL="../subVIs/Setter/Set SubroutineInfo.vi"/>
 		</Item>
 		<Item Name="Autosize Cluster.vi" Type="VI" URL="../subVIs/Autosize Cluster.vi"/>
+		<Item Name="Get Cluster Reference.vi" Type="VI" URL="../subVIs/Getter/Get Cluster Reference.vi"/>
 		<Item Name="Set Cursor Icon.vi" Type="VI" URL="../subVIs/Setter/Set Cursor Icon.vi"/>
 		<Item Name="Dictionary.vi" Type="VI" URL="../subVIs/Dictionary.vi"/>
 		<Item Name="Save VI and Close Refnum.vi" Type="VI" URL="../subVIs/Save VI and Close Refnum.vi"/>

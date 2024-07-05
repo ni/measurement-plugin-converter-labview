@@ -17,10 +17,10 @@
 		<Item Name="Create File if not present.vi" Type="VI" URL="../subVIs/Create File if not present.vi"/>
 		<Item Name="Error Logger Path.vi" Type="VI" URL="../subVIs/Error Logger Path.vi"/>
 		<Item Name="Get Default Project Path.vi" Type="VI" URL="../subVIs/Get Default Project Path.vi"/>
-		<Item Name="Get MeasLink API Path.vi" Type="VI" URL="../subVIs/Get MeasLink API Path.vi"/>
 		<Item Name="Get Path List.vi" Type="VI" URL="../subVIs/Get Path List.vi"/>
+		<Item Name="Get Session Manager API Path.vi" Type="VI" URL="../subVIs/Get Session Manager API Path.vi"/>
+		<Item Name="ISPro Plugin Path.vi" Type="VI" URL="../subVIs/ISPro Plugin Path.vi"/>
 		<Item Name="LabVIEW Dependencies Path.vi" Type="VI" URL="../subVIs/LabVIEW Dependencies Path.vi"/>
-		<Item Name="MeasLink Plugin Path.vi" Type="VI" URL="../subVIs/MeasLink Plugin Path.vi"/>
 		<Item Name="Validate Dir and Create Dir.vi" Type="VI" URL="../subVIs/Validate Dir and Create Dir.vi"/>
 	</Item>
 </Library>
