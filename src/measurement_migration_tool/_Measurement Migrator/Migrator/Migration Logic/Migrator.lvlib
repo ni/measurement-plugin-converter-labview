@@ -131,5 +131,15 @@
 			<Item Name="ReplaceOutsideVIs.vi" Type="VI" URL="../subVIs/Dependency Migration/ReplaceOutsideVIs.vi"/>
 			<Item Name="Dependency Migration Main.vi" Type="VI" URL="../subVIs/Dependency Migration/Dependency Migration Main.vi"/>
 		</Item>
+		<Item Name="Multiple Migration" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Check VI Version.vi" Type="VI" URL="../subVIs/Multiple Migration/Check VI Version.vi"/>
+			<Item Name="Edit Warning.vi" Type="VI" URL="../subVIs/Multiple Migration/Edit Warning.vi"/>
+			<Item Name="Validate File.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate File.vi"/>
+			<Item Name="Validate Measurement Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Measurement Path.vi"/>
+			<Item Name="Validate Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Path.vi"/>
+			<Item Name="Validate Project Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Project Path.vi"/>
+			<Item Name="Warnings.vi" Type="VI" URL="../subVIs/Multiple Migration/Warnings.vi"/>
+		</Item>
 	</Item>
 </Library>
