@@ -12,6 +12,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="controls" Type="Folder">
+		<Item Name="Multiple Migration" Type="Folder">
+			<Item Name="Multiple Migration Data Holder.ctl" Type="VI" URL="../controls/Multiple Migration/Multiple Migration Data Holder.ctl"/>
+			<Item Name="Tree Items.ctl" Type="VI" URL="../controls/Multiple Migration/Tree Items.ctl"/>
+		</Item>
 		<Item Name="Data Holder.ctl" Type="VI" URL="../controls/Data Holder.ctl"/>
 		<Item Name="Input Data.ctl" Type="VI" URL="../controls/Input Data.ctl"/>
 		<Item Name="LibraryData.ctl" Type="VI" URL="../controls/LibraryData.ctl"/>
@@ -135,6 +139,8 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Check VI Version.vi" Type="VI" URL="../subVIs/Multiple Migration/Check VI Version.vi"/>
 			<Item Name="Edit Warning.vi" Type="VI" URL="../subVIs/Multiple Migration/Edit Warning.vi"/>
+			<Item Name="Get Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Measurements.vi"/>
+			<Item Name="Tree Icons.vi" Type="VI" URL="../subVIs/Multiple Migration/Tree Icons.vi"/>
 			<Item Name="Validate File.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate File.vi"/>
 			<Item Name="Validate Measurement Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Measurement Path.vi"/>
 			<Item Name="Validate Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Path.vi"/>
