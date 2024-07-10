@@ -139,12 +139,20 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Check VI Version.vi" Type="VI" URL="../subVIs/Multiple Migration/Check VI Version.vi"/>
 			<Item Name="Edit Warning.vi" Type="VI" URL="../subVIs/Multiple Migration/Edit Warning.vi"/>
+			<Item Name="Get Folder Tag.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Folder Tag.vi"/>
 			<Item Name="Get Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Measurements.vi"/>
+			<Item Name="Populate Tree.vi" Type="VI" URL="../subVIs/Multiple Migration/Populate Tree.vi"/>
+			<Item Name="Set Selection Warning.vi" Type="VI" URL="../subVIs/Multiple Migration/Set Selection Warning.vi"/>
 			<Item Name="Tree Icons.vi" Type="VI" URL="../subVIs/Multiple Migration/Tree Icons.vi"/>
+			<Item Name="Update File Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Update File Icon.vi"/>
+			<Item Name="Update Folder Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Update Folder Icon.vi"/>
+			<Item Name="Update Tree Item Selection.vi" Type="VI" URL="../subVIs/Multiple Migration/Update Tree Item Selection.vi"/>
+			<Item Name="Update Tree Item Symbols.vi" Type="VI" URL="../subVIs/Multiple Migration/Update Tree Item Symbols.vi"/>
 			<Item Name="Validate File.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate File.vi"/>
 			<Item Name="Validate Measurement Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Measurement Path.vi"/>
 			<Item Name="Validate Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Path.vi"/>
 			<Item Name="Validate Project Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Project Path.vi"/>
+			<Item Name="Verify Select All.vi" Type="VI" URL="../subVIs/Multiple Migration/Verify Select All.vi"/>
 			<Item Name="Warnings.vi" Type="VI" URL="../subVIs/Multiple Migration/Warnings.vi"/>
 		</Item>
 	</Item>
