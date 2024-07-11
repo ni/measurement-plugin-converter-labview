@@ -142,7 +142,6 @@
 			<Item Name="Get Folder Tag.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Folder Tag.vi"/>
 			<Item Name="Get Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Measurements.vi"/>
 			<Item Name="Populate Tree.vi" Type="VI" URL="../subVIs/Multiple Migration/Populate Tree.vi"/>
-			<Item Name="Set Selection Warning.vi" Type="VI" URL="../subVIs/Multiple Migration/Set Selection Warning.vi"/>
 			<Item Name="Tree Icons.vi" Type="VI" URL="../subVIs/Multiple Migration/Tree Icons.vi"/>
 			<Item Name="Update File Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Update File Icon.vi"/>
 			<Item Name="Update Folder Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Update Folder Icon.vi"/>
