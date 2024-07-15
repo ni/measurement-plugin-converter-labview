@@ -144,6 +144,7 @@
 			<Item Name="Get Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Measurements.vi"/>
 			<Item Name="Get Plug-in Name.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Plug-in Name.vi"/>
 			<Item Name="Get Selected Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Selected Measurements.vi"/>
+			<Item Name="Get Warning Position.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Warning Position.vi"/>
 			<Item Name="Populate Tree.vi" Type="VI" URL="../subVIs/Multiple Migration/Populate Tree.vi"/>
 			<Item Name="Remove Empty Folders.vi" Type="VI" URL="../subVIs/Multiple Migration/Remove Empty Folders.vi"/>
 			<Item Name="Set Cursor Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Set Cursor Icon.vi"/>

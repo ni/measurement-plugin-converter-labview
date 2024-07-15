@@ -14,15 +14,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_Measurement Migrator" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Measurement Plugin Generator" Type="Folder">
-				<Item Name="_Editor" Type="Folder">
-					<Item Name="NI_AB_API_EXE_Extensions" Type="Folder">
-						<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
-					</Item>
-					<Item Name="RenameRefactor" Type="Folder"/>
-					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/MeasurementService Editor.lvlib"/>
-				</Item>
-			</Item>
 			<Item Name="Templates" Type="Folder">
 				<Item Name="Malleable VIs" Type="Folder">
 					<Item Name="Get Resource Details.vim" Type="VI" URL="../_Measurement Migrator/Templates/Malleable VIs/Get Resource Details.vim"/>
@@ -48,18 +39,13 @@
 					<Item Name="Measurement.instudioproj" Type="Document" URL="../_Measurement Migrator/Templates/InstrumentStudio Project/Measurement.instudioproj"/>
 				</Item>
 			</Item>
-			<Item Name="Migrator" Type="Folder">
-				<Item Name="Path Functions" Type="Folder">
-					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Path Functions/Path Functions.lvlib"/>
-				</Item>
-				<Item Name="Reusables" Type="Folder">
-					<Item Name="Reusables.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Reusables/Reusables.lvlib"/>
-				</Item>
-				<Item Name="Queue Driver" Type="Folder">
-					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Queue Driver/Queue Driver.lvlib"/>
-				</Item>
-				<Item Name="Migration Logic" Type="Folder">
-					<Item Name="Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Migration Logic/Migrator.lvlib"/>
+			<Item Name="Measurement Plugin Generator" Type="Folder">
+				<Item Name="_Editor" Type="Folder">
+					<Item Name="NI_AB_API_EXE_Extensions" Type="Folder">
+						<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
+					</Item>
+					<Item Name="RenameRefactor" Type="Folder"/>
+					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/MeasurementService Editor.lvlib"/>
 				</Item>
 			</Item>
 			<Item Name="Utilities" Type="Folder">
@@ -73,6 +59,20 @@
 					<Item Name="Event Logger" Type="Folder">
 						<Item Name="Event Logger.lvlib" Type="Library" URL="../_Measurement Migrator/Utilities/Logger Utilities/Event Logger/Event Logger.lvlib"/>
 					</Item>
+				</Item>
+			</Item>
+			<Item Name="Migrator" Type="Folder">
+				<Item Name="Path Functions" Type="Folder">
+					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Path Functions/Path Functions.lvlib"/>
+				</Item>
+				<Item Name="Reusables" Type="Folder">
+					<Item Name="Reusables.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Reusables/Reusables.lvlib"/>
+				</Item>
+				<Item Name="Queue Driver" Type="Folder">
+					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Queue Driver/Queue Driver.lvlib"/>
+				</Item>
+				<Item Name="Migration Logic" Type="Folder">
+					<Item Name="Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Migration Logic/Migrator.lvlib"/>
 				</Item>
 			</Item>
 		</Item>
