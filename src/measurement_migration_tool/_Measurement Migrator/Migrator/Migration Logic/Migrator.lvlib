@@ -145,7 +145,7 @@
 			<Item Name="Get Plug-in Name.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Plug-in Name.vi"/>
 			<Item Name="Get Selected Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Selected Measurements.vi"/>
 			<Item Name="Populate Tree.vi" Type="VI" URL="../subVIs/Multiple Migration/Populate Tree.vi"/>
-			<Item Name="Remove unwanted folders.vi" Type="VI" URL="../subVIs/Multiple Migration/Remove unwanted folders.vi"/>
+			<Item Name="Remove Empty Folders.vi" Type="VI" URL="../subVIs/Multiple Migration/Remove Empty Folders.vi"/>
 			<Item Name="Set Cursor Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Set Cursor Icon.vi"/>
 			<Item Name="Set Tree Item Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Set Tree Item Icon.vi"/>
 			<Item Name="Tree Icons.vi" Type="VI" URL="../subVIs/Multiple Migration/Tree Icons.vi"/>
@@ -161,5 +161,4 @@
 			<Item Name="Warnings.vi" Type="VI" URL="../subVIs/Multiple Migration/Warnings.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Check Folder.vi" Type="VI" URL="../subVIs/Multiple Migration/Check Folder.vi"/>
 </Library>
