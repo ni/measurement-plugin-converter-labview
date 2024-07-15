@@ -142,7 +142,6 @@
 			<Item Name="Edit Warning.vi" Type="VI" URL="../subVIs/Multiple Migration/Edit Warning.vi"/>
 			<Item Name="Get Folder Tag.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Folder Tag.vi"/>
 			<Item Name="Get Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Measurements.vi"/>
-			<Item Name="Get Plug-in Name.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Plug-in Name.vi"/>
 			<Item Name="Get Selected Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Selected Measurements.vi"/>
 			<Item Name="Get Warning Position.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Warning Position.vi"/>
 			<Item Name="Populate Tree.vi" Type="VI" URL="../subVIs/Multiple Migration/Populate Tree.vi"/>
