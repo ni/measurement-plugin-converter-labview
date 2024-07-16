@@ -21,6 +21,7 @@
 				<Item Name="Docs" Type="Folder">
 					<Item Name="Error Logs.csv" Type="Document" URL="../_Measurement Migrator/Templates/Docs/Error Logs.csv"/>
 					<Item Name="Event Logger.txt" Type="Document" URL="../_Measurement Migrator/Templates/Docs/Event Logger.txt"/>
+					<Item Name="Folders to Ignore.txt" Type="Document" URL="../_Measurement Migrator/Templates/Docs/Folders to Ignore.txt"/>
 				</Item>
 				<Item Name="Serializers" Type="Folder">
 					<Item Name="Serializer.vim" Type="VI" URL="../_Measurement Migrator/Templates/Serializers/Serializer.vim"/>
