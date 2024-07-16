@@ -125,7 +125,6 @@
 			<Item Name="CreateVirtualFolder.vi" Type="VI" URL="../subVIs/Dependency Migration/CreateVirtualFolder.vi"/>
 			<Item Name="Dependency Migration Main.vi" Type="VI" URL="../subVIs/Dependency Migration/Dependency Migration Main.vi"/>
 			<Item Name="Filter Existing VIs.vi" Type="VI" URL="../subVIs/Dependency Migration/Filter Existing VIs.vi"/>
-			<Item Name="Folders to Ignore File Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Folders to Ignore File Path.vi"/>
 			<Item Name="GetContainedLibraries.vi" Type="VI" URL="../subVIs/Dependency Migration/GetContainedLibraries.vi"/>
 			<Item Name="GetInstrumentVIs.vi" Type="VI" URL="../subVIs/Dependency Migration/GetInstrumentVIs.vi"/>
 			<Item Name="GetMissingDependencies.vi" Type="VI" URL="../subVIs/Dependency Migration/GetMissingDependencies.vi"/>
