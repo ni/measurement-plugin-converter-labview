@@ -150,6 +150,7 @@
 			<Item Name="Populate Tree.vi" Type="VI" URL="../subVIs/Multiple Migration/Populate Tree.vi"/>
 			<Item Name="Remove Empty Folders.vi" Type="VI" URL="../subVIs/Multiple Migration/Remove Empty Folders.vi"/>
 			<Item Name="Set Cursor Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Set Cursor Icon.vi"/>
+			<Item Name="Set Plug-in Name Warning.vi" Type="VI" URL="../subVIs/Multiple Migration/Set Plug-in Name Warning.vi"/>
 			<Item Name="Set Tree Item Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Set Tree Item Icon.vi"/>
 			<Item Name="Tree Icons.vi" Type="VI" URL="../subVIs/Multiple Migration/Tree Icons.vi"/>
 			<Item Name="Update File Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Update File Icon.vi"/>
