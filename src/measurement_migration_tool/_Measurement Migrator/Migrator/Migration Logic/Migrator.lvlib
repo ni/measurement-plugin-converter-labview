@@ -138,10 +138,12 @@
 		</Item>
 		<Item Name="Multiple Migration" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Check if Plug-in Name in Library.vi" Type="VI" URL="../subVIs/Multiple Migration/Check if Plug-in Name in Library.vi"/>
 			<Item Name="Check Tree Item Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Check Tree Item Icon.vi"/>
 			<Item Name="Check VI Version.vi" Type="VI" URL="../subVIs/Multiple Migration/Check VI Version.vi"/>
 			<Item Name="Edit Warning.vi" Type="VI" URL="../subVIs/Multiple Migration/Edit Warning.vi"/>
 			<Item Name="Get Folder Tag.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Folder Tag.vi"/>
+			<Item Name="Get Libraries in Project.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Libraries in Project.vi"/>
 			<Item Name="Get Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Measurements.vi"/>
 			<Item Name="Get Selected Measurements.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Selected Measurements.vi"/>
 			<Item Name="Get Warning Position.vi" Type="VI" URL="../subVIs/Multiple Migration/Get Warning Position.vi"/>
@@ -157,6 +159,7 @@
 			<Item Name="Validate File.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate File.vi"/>
 			<Item Name="Validate Measurement Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Measurement Path.vi"/>
 			<Item Name="Validate Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Path.vi"/>
+			<Item Name="Validate Plugin Name.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Plugin Name.vi"/>
 			<Item Name="Validate Project Path.vi" Type="VI" URL="../subVIs/Multiple Migration/Validate Project Path.vi"/>
 			<Item Name="Verify Select All.vi" Type="VI" URL="../subVIs/Multiple Migration/Verify Select All.vi"/>
 			<Item Name="Warnings.vi" Type="VI" URL="../subVIs/Multiple Migration/Warnings.vi"/>
