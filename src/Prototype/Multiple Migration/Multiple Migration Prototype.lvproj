@@ -21,6 +21,7 @@
 			<Item Name="Classify Dependencies.vi" Type="VI" URL="../subVIs/Classify Dependencies.vi"/>
 			<Item Name="Create Auto-Populating Folder.vi" Type="VI" URL="../subVIs/Create Auto-Populating Folder.vi"/>
 			<Item Name="Create Directory for Dependency.vi" Type="VI" URL="../subVIs/Create Directory for Dependency.vi"/>
+			<Item Name="Create Lib If Not Present.vi" Type="VI" URL="../subVIs/Create Lib If Not Present.vi"/>
 			<Item Name="Get Dependencies.vi" Type="VI" URL="../subVIs/Get Dependencies.vi"/>
 			<Item Name="Get Missing Dependencies.vi" Type="VI" URL="../subVIs/Get Missing Dependencies.vi"/>
 			<Item Name="Get Relative Path for Dependency.vi" Type="VI" URL="../subVIs/Get Relative Path for Dependency.vi"/>
