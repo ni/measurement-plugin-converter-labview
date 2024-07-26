@@ -26,6 +26,7 @@
 			<Item Name="Get Missing Dependencies.vi" Type="VI" URL="../subVIs/Get Missing Dependencies.vi"/>
 			<Item Name="Get Relative Path for Dependency.vi" Type="VI" URL="../subVIs/Get Relative Path for Dependency.vi"/>
 			<Item Name="Get SubVI Dependencies.vi" Type="VI" URL="../subVIs/Get SubVI Dependencies.vi"/>
+			<Item Name="Migrate Common Dependencies.vi" Type="VI" URL="../subVIs/Migrate Common Dependencies.vi"/>
 			<Item Name="Migrate Measurement Dependencies.vi" Type="VI" URL="../subVIs/Migrate Measurement Dependencies.vi"/>
 			<Item Name="Replace Outside Items.vi" Type="VI" URL="../subVIs/Replace Outside Items.vi"/>
 			<Item Name="Replace Outside Typedef Const.vi" Type="VI" URL="../subVIs/Replace Outside Typedef Const.vi"/>
