@@ -35,7 +35,7 @@
 			<Item Name="Migrate Shared Dependencies.vi" Type="VI" URL="../subVIs/Migrate Shared Dependencies.vi"/>
 			<Item Name="Replace Outside Items.vi" Type="VI" URL="../subVIs/Replace Outside Items.vi"/>
 			<Item Name="Replace Outside Typedef Const.vi" Type="VI" URL="../subVIs/Replace Outside Typedef Const.vi"/>
-			<Item Name="Replace Outside Typedef Ctrl.vi" Type="VI" URL="../subVIs/Replace Outside Typedef Ctrl.vi"/>
+			<Item Name="Replace Outside Typedef Control.vi" Type="VI" URL="../subVIs/Replace Outside Typedef Control.vi"/>
 			<Item Name="Replace Outside VIs.vi" Type="VI" URL="../subVIs/Replace Outside VIs.vi"/>
 			<Item Name="Save Project.vi" Type="VI" URL="../subVIs/Save Project.vi"/>
 		</Item>
@@ -46,6 +46,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
