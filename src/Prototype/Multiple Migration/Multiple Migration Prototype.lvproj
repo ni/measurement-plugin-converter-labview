@@ -23,12 +23,16 @@
 			<Item Name="Create Directory for Dependency.vi" Type="VI" URL="../subVIs/Create Directory for Dependency.vi"/>
 			<Item Name="Create Lib If Not Present.vi" Type="VI" URL="../subVIs/Create Lib If Not Present.vi"/>
 			<Item Name="Create Relative Path for Dependency.vi" Type="VI" URL="../subVIs/Create Relative Path for Dependency.vi"/>
+			<Item Name="Get all Dependencies.vi" Type="VI" URL="../subVIs/Get all Dependencies.vi"/>
+			<Item Name="Get Common Dependencies.vi" Type="VI" URL="../subVIs/Get Common Dependencies.vi"/>
 			<Item Name="Get Dependencies.vi" Type="VI" URL="../subVIs/Get Dependencies.vi"/>
 			<Item Name="Get Missing Dependencies.vi" Type="VI" URL="../subVIs/Get Missing Dependencies.vi"/>
 			<Item Name="Get Relative Path for Dependency.vi" Type="VI" URL="../subVIs/Get Relative Path for Dependency.vi"/>
 			<Item Name="Get SubVI Dependencies.vi" Type="VI" URL="../subVIs/Get SubVI Dependencies.vi"/>
+			<Item Name="Migrate all Measurement Dependencies.vi" Type="VI" URL="../subVIs/Migrate all Measurement Dependencies.vi"/>
 			<Item Name="Migrate Common Dependencies.vi" Type="VI" URL="../subVIs/Migrate Common Dependencies.vi"/>
 			<Item Name="Migrate Measurement Dependencies.vi" Type="VI" URL="../subVIs/Migrate Measurement Dependencies.vi"/>
+			<Item Name="Migrate Shared Dependencies.vi" Type="VI" URL="../subVIs/Migrate Shared Dependencies.vi"/>
 			<Item Name="Replace Outside Items.vi" Type="VI" URL="../subVIs/Replace Outside Items.vi"/>
 			<Item Name="Replace Outside Typedef Const.vi" Type="VI" URL="../subVIs/Replace Outside Typedef Const.vi"/>
 			<Item Name="Replace Outside Typedef Ctrl.vi" Type="VI" URL="../subVIs/Replace Outside Typedef Ctrl.vi"/>
