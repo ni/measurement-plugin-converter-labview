@@ -14,15 +14,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_Measurement Migrator" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Measurement Plugin Generator" Type="Folder">
-				<Item Name="_Editor" Type="Folder">
-					<Item Name="NI_AB_API_EXE_Extensions" Type="Folder">
-						<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
-					</Item>
-					<Item Name="RenameRefactor" Type="Folder"/>
-					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/MeasurementService Editor.lvlib"/>
-				</Item>
-			</Item>
 			<Item Name="Templates" Type="Folder">
 				<Item Name="Malleable VIs" Type="Folder">
 					<Item Name="Get Resource Details.vim" Type="VI" URL="../_Measurement Migrator/Templates/Malleable VIs/Get Resource Details.vim"/>
@@ -30,6 +21,7 @@
 				<Item Name="Docs" Type="Folder">
 					<Item Name="Error Logs.csv" Type="Document" URL="../_Measurement Migrator/Templates/Docs/Error Logs.csv"/>
 					<Item Name="Event Logger.txt" Type="Document" URL="../_Measurement Migrator/Templates/Docs/Event Logger.txt"/>
+					<Item Name="Folders to Ignore.txt" Type="Document" URL="../_Measurement Migrator/Templates/Docs/Folders to Ignore.txt"/>
 				</Item>
 				<Item Name="Serializers" Type="Folder">
 					<Item Name="Serializer.vim" Type="VI" URL="../_Measurement Migrator/Templates/Serializers/Serializer.vim"/>
@@ -48,18 +40,13 @@
 					<Item Name="Measurement.instudioproj" Type="Document" URL="../_Measurement Migrator/Templates/InstrumentStudio Project/Measurement.instudioproj"/>
 				</Item>
 			</Item>
-			<Item Name="Migrator" Type="Folder">
-				<Item Name="Path Functions" Type="Folder">
-					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Path Functions/Path Functions.lvlib"/>
-				</Item>
-				<Item Name="Reusables" Type="Folder">
-					<Item Name="Reusables.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Reusables/Reusables.lvlib"/>
-				</Item>
-				<Item Name="Queue Driver" Type="Folder">
-					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Queue Driver/Queue Driver.lvlib"/>
-				</Item>
-				<Item Name="Migration Logic" Type="Folder">
-					<Item Name="Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Migration Logic/Migrator.lvlib"/>
+			<Item Name="Measurement Plugin Generator" Type="Folder">
+				<Item Name="_Editor" Type="Folder">
+					<Item Name="NI_AB_API_EXE_Extensions" Type="Folder">
+						<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
+					</Item>
+					<Item Name="RenameRefactor" Type="Folder"/>
+					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/MeasurementService Editor.lvlib"/>
 				</Item>
 			</Item>
 			<Item Name="Utilities" Type="Folder">
@@ -75,8 +62,23 @@
 					</Item>
 				</Item>
 			</Item>
+			<Item Name="Migrator" Type="Folder">
+				<Item Name="Path Functions" Type="Folder">
+					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Path Functions/Path Functions.lvlib"/>
+				</Item>
+				<Item Name="Reusables" Type="Folder">
+					<Item Name="Reusables.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Reusables/Reusables.lvlib"/>
+				</Item>
+				<Item Name="Queue Driver" Type="Folder">
+					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Queue Driver/Queue Driver.lvlib"/>
+				</Item>
+				<Item Name="Migration Logic" Type="Folder">
+					<Item Name="Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Migration Logic/Migrator.lvlib"/>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="Migrate Measurement.vi" Type="VI" URL="../Migrate Measurement.vi"/>
+		<Item Name="Migrate Measurements.vi" Type="VI" URL="../Migrate Measurements.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -593,6 +595,9 @@
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="NI Measurement Plug-In SDK.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Measurements/NI Measurement Plug-In SDK.lvlib"/>
+				<Item Name="AB_Compile_Before_Reading_VI_Exec.State.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Compile_Before_Reading_VI_Exec.State.vi"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 			</Item>
 			<Item Name="AB_Create_Build_AppInstance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Create_Build_AppInstance.vi"/>
 			<Item Name="AB_Create_Web_Service_Config_File.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Create_Web_Service_Config_File.vi"/>
@@ -749,44 +754,6 @@
 			<Item Name="AB_UI_Obtain_Source_Item.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Obtain_Source_Item.vi"/>
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Migration Utility" Type="Source Distribution">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{F89B3FB4-19E0-4F47-830C-F70B8412F01C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Migration Utility</Property>
-				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
-				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
-				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/21.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/sabthagiri.murugan/Documents/LabVIEW Data/2021(64-bit)/ExtraVILib</Property>
-				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
-				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
-				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/D/Builds/SD</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{DED608ED-5395-4ED4-908D-2F507409DAC4}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/D/Builds/SD</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/D/Builds/SD/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8CBDCEDB-39FF-4015-B675-5DC9239F8AFF}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Migrate Measurement.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
