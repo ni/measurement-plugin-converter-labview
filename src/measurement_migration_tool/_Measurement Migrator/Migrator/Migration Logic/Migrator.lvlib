@@ -98,6 +98,29 @@
 			<Item Name="Adding the saved value setter subVI.vi" Type="VI" URL="../subVIs/Scripting VIs/Adding the saved value setter subVI.vi"/>
 			<Item Name="Connect Empty String Term.vi" Type="VI" URL="../subVIs/Scripting VIs/Connect Empty String Term.vi"/>
 			<Item Name="Delete Reference.vi" Type="VI" URL="../subVIs/Scripting VIs/Delete Reference.vi"/>
+			<Item Name="Project_and_Plugin Template Creation.vi" Type="VI" URL="../subVIs/Scripting VIs/Project_and_Plugin Template Creation.vi"/>
+			<Item Name="List Drivers.vi" Type="VI" URL="../subVIs/Scripting VIs/List Drivers.vi"/>
+			<Item Name="Add Measurement Plugin Controls.vi" Type="VI" URL="../subVIs/Scripting VIs/Add Measurement Plugin Controls.vi"/>
+			<Item Name="Edit Connector Pane Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Edit Connector Pane Multiple.vi"/>
+			<Item Name="Create Wrapper for Measurement Plugin.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Wrapper for Measurement Plugin.vi"/>
+			<Item Name="Deserialize Connections in Wrapper Plugin.vi" Type="VI" URL="../subVIs/Scripting VIs/Deserialize Connections in Wrapper Plugin.vi"/>
+			<Item Name="Create Measurement Plugin subVIs.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Measurement Plugin subVIs.vi"/>
+			<Item Name="Create Meas Plugin APIs.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Meas Plugin APIs.vi"/>
+			<Item Name="Connect Meas Plugin APIs.vi" Type="VI" URL="../subVIs/Scripting VIs/Connect Meas Plugin APIs.vi"/>
+			<Item Name="Add Malleable VI in Meas Logic.vi" Type="VI" URL="../subVIs/Scripting VIs/Add Malleable VI in Meas Logic.vi"/>
+			<Item Name="Insert Bundle by Name in Wrapper.vi" Type="VI" URL="../subVIs/Scripting VIs/Insert Bundle by Name in Wrapper.vi"/>
+			<Item Name="Edit Plugin Type Specialization.vi" Type="VI" URL="../subVIs/Scripting VIs/Edit Plugin Type Specialization.vi"/>
+			<Item Name="Path Type Specialization.vi" Type="VI" URL="../subVIs/Scripting VIs/Path Type Specialization.vi"/>
+			<Item Name="Add Elements to Meas Plugin UI.vi" Type="VI" URL="../subVIs/Scripting VIs/Add Elements to Meas Plugin UI.vi"/>
+			<Item Name="Create String and Serialize Cluster Data in UI.vi" Type="VI" URL="../subVIs/Scripting VIs/Create String and Serialize Cluster Data in UI.vi"/>
+			<Item Name="Logic for Default Case Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Logic for Default Case Multiple.vi"/>
+			<Item Name="Adding the default value setter Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Adding the default value setter Multiple.vi"/>
+			<Item Name="Add Wrapper to Library Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Add Wrapper to Library Multiple.vi"/>
+			<Item Name="Create Unbundler and Wire Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Unbundler and Wire Multiple.vi"/>
+			<Item Name="Create Plugin Template.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Plugin Template.vi"/>
+			<Item Name="Create Resource in Controls and Wire Unbundler.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Resource in Controls and Wire Unbundler.vi"/>
+			<Item Name="Add Meas Plugin Indicators.vi" Type="VI" URL="../subVIs/Scripting VIs/Add Meas Plugin Indicators.vi"/>
+			<Item Name="Copy Set Default Value Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Copy Set Default Value Multiple.vi"/>
 		</Item>
 		<Item Name="Validators" Type="Folder">
 			<Item Name="Check if Init APIs.vi" Type="VI" URL="../subVIs/Validators/Check if Init APIs.vi"/>
@@ -118,6 +141,8 @@
 			<Item Name="Remove Empty Strings.vi" Type="VI" URL="../subVIs/common/Remove Empty Strings.vi"/>
 			<Item Name="Save Libraries and Projects.vi" Type="VI" URL="../subVIs/common/Save Libraries and Projects.vi"/>
 			<Item Name="Start Service.vi" Type="VI" URL="../subVIs/common/Start Service.vi"/>
+			<Item Name="Create and Save Project.vi" Type="VI" URL="../subVIs/common/Create and Save Project.vi"/>
+			<Item Name="Save Projects and Libraries.vi" Type="VI" URL="../subVIs/common/Save Projects and Libraries.vi"/>
 		</Item>
 		<Item Name="Dependency migration" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>

@@ -45,7 +45,6 @@
 					<Item Name="NI_AB_API_EXE_Extensions" Type="Folder">
 						<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
 					</Item>
-					<Item Name="RenameRefactor" Type="Folder"/>
 					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Migrator/Measurement Plugin Generator/_Editor/MeasurementService Editor.lvlib"/>
 				</Item>
 			</Item>
@@ -75,6 +74,9 @@
 				<Item Name="Migration Logic" Type="Folder">
 					<Item Name="Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Migration Logic/Migrator.lvlib"/>
 				</Item>
+			</Item>
+			<Item Name="Multiple Migrator" Type="Folder">
+				<Item Name="Multiple Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Multiple Migrator/Multiple Migrator.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Migrate Measurement.vi" Type="VI" URL="../Migrate Measurement.vi"/>

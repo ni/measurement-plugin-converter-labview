@@ -18,9 +18,11 @@
 		<Item Name="Error Logger Path.vi" Type="VI" URL="../subVIs/Error Logger Path.vi"/>
 		<Item Name="Get Default Project Path.vi" Type="VI" URL="../subVIs/Get Default Project Path.vi"/>
 		<Item Name="Get MeasLink API Path.vi" Type="VI" URL="../subVIs/Get MeasLink API Path.vi"/>
+		<Item Name="Get Measurement Paths.vi" Type="VI" URL="../../../Measurement Plugin Generator/_Editor/Get Measurement Paths.vi"/>
 		<Item Name="Get Path List.vi" Type="VI" URL="../subVIs/Get Path List.vi"/>
 		<Item Name="LabVIEW Dependencies Path.vi" Type="VI" URL="../subVIs/LabVIEW Dependencies Path.vi"/>
 		<Item Name="MeasLink Plugin Path.vi" Type="VI" URL="../subVIs/MeasLink Plugin Path.vi"/>
+		<Item Name="Measurement Plugin Path.vi" Type="VI" URL="../subVIs/Measurement Plugin Path.vi"/>
 		<Item Name="Validate Dir and Create Dir.vi" Type="VI" URL="../subVIs/Validate Dir and Create Dir.vi"/>
 	</Item>
 </Library>
