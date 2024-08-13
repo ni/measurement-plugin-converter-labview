@@ -82,7 +82,7 @@
 			<Item Name="Create Build Array.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Build Array.vi"/>
 			<Item Name="Create String and Serialize Cluster Data.vi" Type="VI" URL="../subVIs/Scripting VIs/Create String and Serialize Cluster Data.vi"/>
 			<Item Name="Create Deserializer VI in Logic.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Deserializer VI in Logic.vi"/>
-			<Item Name="Create String for Cluster in Result.vi" Type="VI" URL="../../Reusables/subVIs/Create String for Cluster in Result.vi"/>
+			<Item Name="Create String for Cluster in Result.vi" Type="VI" URL="../../Migrator Reusables/subVIs/Create String for Cluster in Result.vi"/>
 			<Item Name="Delete Wire.vi" Type="VI" URL="../subVIs/Scripting VIs/Delete Wire.vi"/>
 			<Item Name="Deserialize Data in Meas UI.vi" Type="VI" URL="../subVIs/Scripting VIs/Deserialize Data in Meas UI.vi"/>
 			<Item Name="Adding the default value setter subVI.vi" Type="VI" URL="../subVIs/Scripting VIs/Adding the default value setter subVI.vi"/>
@@ -164,6 +164,7 @@
 		<Item Name="Multiple Migration" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Check if Plug-in Name in Library.vi" Type="VI" URL="../subVIs/Multiple Migration/Check if Plug-in Name in Library.vi"/>
+			<Item Name="Check Parent Folder Selection.vi" Type="VI" URL="../subVIs/Multiple Migration/Check Parent Folder Selection.vi"/>
 			<Item Name="Check Tree Item Icon.vi" Type="VI" URL="../subVIs/Multiple Migration/Check Tree Item Icon.vi"/>
 			<Item Name="Check VI Version.vi" Type="VI" URL="../subVIs/Multiple Migration/Check VI Version.vi"/>
 			<Item Name="Edit Warning.vi" Type="VI" URL="../subVIs/Multiple Migration/Edit Warning.vi"/>
