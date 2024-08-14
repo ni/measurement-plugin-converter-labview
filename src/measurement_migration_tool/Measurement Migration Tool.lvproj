@@ -74,9 +74,9 @@
 				<Item Name="Migration Logic" Type="Folder">
 					<Item Name="Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Migration Logic/Migrator.lvlib"/>
 				</Item>
-			</Item>
-			<Item Name="Multiple Migrator" Type="Folder">
-				<Item Name="Multiple Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Multiple Migrator/Multiple Migrator.lvlib"/>
+				<Item Name="Multiple Migrator" Type="Folder">
+					<Item Name="Multiple Migrator.lvlib" Type="Library" URL="../_Measurement Migrator/Migrator/Multiple Migrator/Multiple Migrator.lvlib"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Migrate Measurement.vi" Type="VI" URL="../Migrate Measurement.vi"/>

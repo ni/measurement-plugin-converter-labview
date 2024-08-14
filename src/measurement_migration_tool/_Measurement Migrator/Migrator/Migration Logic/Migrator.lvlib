@@ -115,12 +115,12 @@
 			<Item Name="Create String and Serialize Cluster Data in UI.vi" Type="VI" URL="../subVIs/Scripting VIs/Create String and Serialize Cluster Data in UI.vi"/>
 			<Item Name="Logic for Default Case Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Logic for Default Case Multiple.vi"/>
 			<Item Name="Adding the default value setter Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Adding the default value setter Multiple.vi"/>
-			<Item Name="Add Wrapper to Library Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Add Wrapper to Library Multiple.vi"/>
 			<Item Name="Create Unbundler and Wire Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Unbundler and Wire Multiple.vi"/>
 			<Item Name="Create Plugin Template.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Plugin Template.vi"/>
 			<Item Name="Create Resource in Controls and Wire Unbundler.vi" Type="VI" URL="../subVIs/Scripting VIs/Create Resource in Controls and Wire Unbundler.vi"/>
 			<Item Name="Add Meas Plugin Indicators.vi" Type="VI" URL="../subVIs/Scripting VIs/Add Meas Plugin Indicators.vi"/>
 			<Item Name="Copy Set Default Value Multiple.vi" Type="VI" URL="../subVIs/Scripting VIs/Copy Set Default Value Multiple.vi"/>
+			<Item Name="Add Wrapper.vi" Type="VI" URL="../subVIs/Scripting VIs/Add Wrapper.vi"/>
 		</Item>
 		<Item Name="Validators" Type="Folder">
 			<Item Name="Check if Init APIs.vi" Type="VI" URL="../subVIs/Validators/Check if Init APIs.vi"/>
