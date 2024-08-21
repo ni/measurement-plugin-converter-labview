@@ -16,6 +16,7 @@
 		<Item Name="Library Info.ctl" Type="VI" URL="../controls/Library Info.ctl"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Check Main Measurement for Instrument Drivers.vi" Type="VI" URL="../subVIs/Check Main Measurement for Instrument Drivers.vi"/>
 		<Item Name="Classify Dependencies.vi" Type="VI" URL="../subVIs/Classify Dependencies.vi"/>
 		<Item Name="Classify Instrument VIs.vi" Type="VI" URL="../subVIs/Classify Instrument VIs.vi"/>
 		<Item Name="Create Auto-Populating Folder.vi" Type="VI" URL="../subVIs/Create Auto-Populating Folder.vi"/>
