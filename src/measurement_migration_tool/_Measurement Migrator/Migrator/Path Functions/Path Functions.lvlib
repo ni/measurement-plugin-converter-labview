@@ -23,6 +23,7 @@
 		<Item Name="LabVIEW Dependencies Path.vi" Type="VI" URL="../subVIs/LabVIEW Dependencies Path.vi"/>
 		<Item Name="MeasLink Plugin Path.vi" Type="VI" URL="../subVIs/MeasLink Plugin Path.vi"/>
 		<Item Name="Measurement Plugin Path.vi" Type="VI" URL="../subVIs/Measurement Plugin Path.vi"/>
+		<Item Name="Remove Empty Path.vi" Type="VI" URL="../subVIs/Remove Empty Path.vi"/>
 		<Item Name="Validate Dir and Create Dir.vi" Type="VI" URL="../subVIs/Validate Dir and Create Dir.vi"/>
 	</Item>
 </Library>
