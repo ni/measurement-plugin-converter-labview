@@ -10,6 +10,6 @@
 		<Item Name="Temp.ctl" Type="VI" URL="../controls/Temp.ctl"/>
 		<Item Name="VIn SMU.vi" Type="VI" URL="../SMU/VIn SMU.vi"/>
 	</Item>
-	<Item Name="Load and Vin SMU Measurement.vi" Type="VI" URL="../Load and Vin SMU Measurement.vi"/>
-	<Item Name="NI-DCPower Pulse Voltage Sequence.vi" Type="VI" URL="../NI-DCPower Pulse Voltage Sequence.vi"/>
+	<Item Name="Load and Vin SMU Measurement T3.vi" Type="VI" URL="../Load and Vin SMU Measurement T3.vi"/>
+	<Item Name="NI-DCPower Pulse Voltage Sequence T3.vi" Type="VI" URL="../NI-DCPower Pulse Voltage Sequence T3.vi"/>
 </Library>

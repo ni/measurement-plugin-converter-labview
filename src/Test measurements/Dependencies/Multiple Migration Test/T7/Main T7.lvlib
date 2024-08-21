@@ -4,6 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Load and Vin SMU Measurement.vi" Type="VI" URL="../Load and Vin SMU Measurement.vi"/>
-	<Item Name="NI-DCPower Pulse Voltage Sequence.vi" Type="VI" URL="../NI-DCPower Pulse Voltage Sequence.vi"/>
+	<Item Name="Load and Vin SMU Measurement T7.vi" Type="VI" URL="../Load and Vin SMU Measurement T7.vi"/>
+	<Item Name="NI-DCPower Pulse Voltage Sequence t7.vi" Type="VI" URL="../NI-DCPower Pulse Voltage Sequence t7.vi"/>
 </Library>

@@ -8,6 +8,6 @@
 		<Item Name="Load SMU.vi" Type="VI" URL="../SMU/Load SMU.vi"/>
 		<Item Name="VIn SMU.vi" Type="VI" URL="../SMU/VIn SMU.vi"/>
 	</Item>
-	<Item Name="Load and Vin SMU Measurement.vi" Type="VI" URL="../Load and Vin SMU Measurement.vi"/>
-	<Item Name="NI-DCPower Pulse Voltage Sequence.vi" Type="VI" URL="../NI-DCPower Pulse Voltage Sequence.vi"/>
+	<Item Name="Load and Vin SMU Measurement T4.vi" Type="VI" URL="../Load and Vin SMU Measurement T4.vi"/>
+	<Item Name="NI-DCPower Pulse Voltage Sequence T4.vi" Type="VI" URL="../NI-DCPower Pulse Voltage Sequence T4.vi"/>
 </Library>
