@@ -11,6 +11,6 @@
 		<Item Name="I2C Generator.vi" Type="VI" URL="../subVIs/I2C Generator.vi"/>
 		<Item Name="I3C Generator.vi" Type="VI" URL="../subVIs/I3C Generator.vi"/>
 	</Item>
-	<Item Name="NI-DCPower Source DC Voltage.vi" Type="VI" URL="../NI-DCPower Source DC Voltage.vi"/>
-	<Item Name="Two Fgen Module.vi" Type="VI" URL="../Two Fgen Module.vi"/>
+	<Item Name="NI-DCPower Source DC Voltage T1.vi" Type="VI" URL="../NI-DCPower Source DC Voltage T1.vi"/>
+	<Item Name="Two Fgen Module T1.vi" Type="VI" URL="../Two Fgen Module T1.vi"/>
 </Library>
