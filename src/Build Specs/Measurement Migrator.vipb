@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-21 20:03:51" Modified_Date="2024-06-26 15:44:13" Creator="sabthagiri.murugan" Comments="" ID="9f661df36dbbe6dc1519ca4ce7928b86">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-21 20:03:51" Modified_Date="2024-08-22 17:34:11" Creator="sabthagiri.murugan" Comments="" ID="da9a343b5b645fc51286dc4f4fc15674">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_migrator</Package_File_Name>
-    <Library_Version>1.2.0.3</Library_Version>
+    <Library_Version>2.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\measurement_migration_tool</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -22,8 +22,7 @@
       <External_Dependencies>ni_protobuf_types &gt;= 1.0.0.1</External_Dependencies>
       <Additional_External_Dependencies>jdp_science_jsontext &gt;=1.8.2.122</Additional_External_Dependencies>
       <Additional_External_Dependencies>jdp_science_lib_common_utilities &gt;=1.4.1.18</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_measurement_plugin_sdk_generator &gt;=3.0.0.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_measurement_plugin_sdk_service &gt;=3.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_measurement_plugin_sdk &gt;=3.0.0.3</Additional_External_Dependencies>
       <Direct_Dependencies>ni_lib_labview_grpc_library-1.0.1.1</Direct_Dependencies>
       <Direct_Dependencies>ni_lib_labview_grpc_servicer-1.0.1.1</Direct_Dependencies>
       <Direct_Dependencies>ni_protobuf_types-1.0.0.1</Direct_Dependencies>
@@ -82,7 +81,7 @@
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;project&gt;\Plug-Ins\Measurement</Path>
+        <Path>&lt;project&gt;\Plug-In SDKs\Measurements</Path>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
@@ -122,6 +121,9 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Migrate Measurement.vi</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>

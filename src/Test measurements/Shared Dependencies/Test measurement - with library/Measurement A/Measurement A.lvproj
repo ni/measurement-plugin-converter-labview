@@ -14,7 +14,7 @@
 			<Item Name="Get Username.vi" Type="VI" URL="../../Reusables/subVIs/Get Username.vi"/>
 			<Item Name="Username.ctl" Type="VI" URL="../../Reusables/controls/Username.ctl"/>
 		</Item>
-		<Item Name="Measurement A.lvlib" Type="Library" URL="../Measurement A.lvlib"/>
+		<Item Name="Meas A.lvlib" Type="Library" URL="../Meas A.lvlib"/>
 		<Item Name="Measurement A.vi" Type="VI" URL="../Measurement A.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
