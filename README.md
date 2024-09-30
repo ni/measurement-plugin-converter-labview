@@ -1,15 +1,41 @@
-# GitHub Repo Template
+# Measurement migration tool for LabVIEW
 
-GitHub Repo Template is a template for creation of open source projects made
-available on GitHub. It includes a permissive open source license, a developer
-certificate of origin, and a pull request template. This provides everything
-necessary to have a properly licensed open source project.
+This repository contains the source code and workflow for migrating any existing LabVIEW measurements into measurement plug-in.
 
-## Using GitHub Repo Template
+## Table of content
 
-1. Clone or download this repository.
-2. Copy its contents into your project (including the hidden .github directory). 
-3. Customize each file to suit your project's needs (including the README). Look through the files for "TODO" and \<reponame\>, and replace with content appropriate to your project.
-4. (Optional) Check out [GitHub Template Guidelines](https://github.com/cezaraugusto/github-template-guidelines) for ideas about how to customize your project.
+- [Measurement migration tool for LabVIEW](#measurement-migration-tool-for-labview)
+  - [Overview](#overview)
+    - [Migration tool for LabVIEW](#migration-tool-for-labview)
+  - [Software Dependencies](#software-dependencies)
+  - [Getting Started](#getting-started)
+  - [Create and Update NI Package Manager Feeds](#create-and-update-ni-package-manager-feeds)
 
-TODO: describe a project in detail, what it does, how to use it, etc.
+## Overview
+
+### Migration tool for LabVIEW
+
+The Measurement plug-in users find it difficult to migrate their existing measurement into InstrumentStudio Pro measurement plug-in. The migration tool helps them migrate any existing LabVIEW measurements into measurement plug-in.
+
+## Software Dependencies
+
+- LabVIEW 2021 SP1 or later
+- InstrumentStudio Professional 2024 Q3 or later
+- Recommended: TestStand 2021 SP1 or later
+
+## Getting Started
+
+- You can refer to the [Create Measurement Plugin HLD](https://github.com/ni/measurement-migration-tool/blob/main/docs/Migration%20Utility%20HLD/Create%20Measurement%20Plugin%20HLD.md) to understand the workflow for migrating any existing LabVIEW measurements into measurement plug-in.
+
+## Create and Update NI Package Manager Feeds
+
+- Packages for various measurement plugins are incorporated into an NI Package Manager feed,
+  allowing users to install new packages or receive updates to existing ones by subscribing to the
+  feed.
+
+- The feeds for Measurement plugins are maintained under the attached repo
+  [`package-manager-feeds`](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds).
+
+- Please follow the procedure mentioned in the attached document for adding new packages or updating new
+  versions of existing packages to the feed
+  [`README.md`](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds/blob/main/package-feed-updater/README.md).
