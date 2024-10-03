@@ -18,9 +18,10 @@ The Measurement plug-in users find it difficult to migrate their existing measur
 
 ## Software Dependencies
 
-- LabVIEW 2021 SP1 or later
-- InstrumentStudio Professional 2024 Q3 or later
-- Optional: TestStand 2021 SP1 or later
+- [LabVIEW 2021 SP1 or later](https://www.ni.com/en/support/downloads/software-products/download.labview.html#443865)
+- [InstrumentStudio Professional 2024 Q3 or later](https://www.ni.com/en/support/downloads/software-products/download.instrumentstudio.html#544066)
+- [Measurement Plug-In SDK for LabVIEW 3.0.0.3](https://github.com/ni/measurement-plugin-labview/releases/tag/v3.0.0.3)
+- Optional: [TestStand 2021 SP1 or later](https://www.ni.com/en/support/downloads/software-products/download.teststand.html#494502)
 
 ## Getting Started
 
