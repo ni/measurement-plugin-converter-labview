@@ -25,4 +25,4 @@ The Measurement plug-in users find it difficult to migrate their existing measur
 
 ## Getting Started
 
-- You can refer to the [Measurement Migration User Manual](https://github.com/ni/measurement-migration-tool/releases/download/v2.0.0.2/Measurement_Migrator_Tool_User_Manual.pdf) to understand the workflow for migrating the existing simple LabVIEW measurements into measurement plug-in.
+- You can refer to the [Measurement Migration User Manual](https://github.com/ni/measurement-migration-tool/releases/download/v2.0.0.2/Measurement_Migrator_Tool_User_Manual.pdf) to understand the workflow for migrating the existing simple LabVIEW measurements into measurement plug-ins.
