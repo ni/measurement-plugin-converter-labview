@@ -14,7 +14,7 @@ This repository contains the source code for the Measurement Migration tool whic
 
 ### Migration tool for LabVIEW
 
-The Measurement plug-in users find it difficult to migrate their existing measurement into InstrumentStudio Pro measurement plug-in. The migration tool helps them migrate the existing simple LabVIEW LabVIEW measurements into measurement plug-in.
+The Measurement plug-in users find it difficult to migrate their existing measurements into the InstrumentStudio Pro measurement plug-ins. This migration tool helps them migrate the existing native LabVIEW measurements into measurement plug-ins.
 
 ## Software Dependencies
 
