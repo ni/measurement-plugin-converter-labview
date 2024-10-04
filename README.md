@@ -1,6 +1,6 @@
 # Measurement migration tool for LabVIEW
 
-This repository contains the source code and workflow for migrating the existing simple LabVIEW measurements into measurement plug-in.
+This repository contains the source code for the migration tool which helps in migrating the existing simple LabVIEW measurements into measurement plug-in.
 
 ## Table of content
 
@@ -25,4 +25,4 @@ The Measurement plug-in users find it difficult to migrate their existing measur
 
 ## Getting Started
 
-- You can refer to the [Create Measurement Plugin HLD](https://github.com/ni/measurement-migration-tool/blob/main/docs/Migration%20Utility%20HLD/Create%20Measurement%20Plugin%20HLD.md) to understand the workflow for migrating any existing LabVIEW measurements into measurement plug-in.
+- You can refer to the [Measurement Migration User Manual](https://github.com/ni/measurement-migration-tool/releases/download/v2.0.0.2/Measurement_Migrator_Tool_User_Manual.pdf) to understand the workflow for migrating the existing simple LabVIEW measurements into measurement plug-in.
