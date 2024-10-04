@@ -1,6 +1,6 @@
 # Measurement migration tool for LabVIEW
 
-This repository contains the source code for the migration tool which helps in migrating the existing simple LabVIEW measurements into measurement plug-in.
+This repository contains the source code for the Measurement Migration tool which helps in migrating the native LabVIEW measurements to measurement plug-ins.
 
 ## Table of content
 
