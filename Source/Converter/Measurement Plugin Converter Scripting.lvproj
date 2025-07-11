@@ -63,19 +63,19 @@
 			</Item>
 			<Item Name="Converter" Type="Folder">
 				<Item Name="Path Functions" Type="Folder">
-					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Path Functions/Path Functions.lvlib"/>
+					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Path Functions/Path Functions.lvlib"/>
 				</Item>
 				<Item Name="Converter Reusables" Type="Folder">
-					<Item Name="Converter Reusables.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Converter Reusables/Converter Reusables.lvlib"/>
+					<Item Name="Converter Reusables.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Converter Reusables/Converter Reusables.lvlib"/>
 				</Item>
 				<Item Name="Queue Driver" Type="Folder">
-					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Queue Driver/Queue Driver.lvlib"/>
+					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Queue Driver/Queue Driver.lvlib"/>
 				</Item>
 				<Item Name="Conversion Logic" Type="Folder">
-					<Item Name="Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Conversion Logic/Converter.lvlib"/>
+					<Item Name="Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Conversion Logic/Converter.lvlib"/>
 				</Item>
 				<Item Name="Multiple Converter" Type="Folder">
-					<Item Name="Multiple Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Multiple Converter/Multiple Converter.lvlib"/>
+					<Item Name="Multiple Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Multiple Converter/Multiple Converter.lvlib"/>
 				</Item>
 			</Item>
 		</Item>
@@ -127,7 +127,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Palette Menu.lvlib" Type="Library" URL="/&lt;vilib&gt;/Palette API/Palette Menu/Palette Menu.lvlib"/>
-				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -561,7 +560,6 @@
 				<Item Name="TestStand API String Constants.vi" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand API String Constants.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
-				<Item Name="VIAnUtil Get Terminal Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Get Terminal Data Type.vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
@@ -584,8 +582,7 @@
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Remove and Rewire Objects_core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Remove and Rewire Objects_core.vi"/>
-				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
 				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
@@ -596,10 +593,13 @@
 				<Item Name="File Dialog - LabVIEW Files.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/File Dialog - LabVIEW Files.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="VIAnUtil Get Terminal Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Get Terminal Data Type.vi"/>
 				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
 				<Item Name="Insert_Fix Node Terminals.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Fix Node Terminals.vi"/>
 				<Item Name="Insert_Reposition Node Vertically.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Reposition Node Vertically.vi"/>
 				<Item Name="Insert_Rewire Terminal.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Rewire Terminal.vi"/>
+				<Item Name="Remove and Rewire Objects_core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Remove and Rewire Objects_core.vi"/>
+				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 			</Item>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
 			<Item Name="provcom_CheckForInvalidCharacters.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckForInvalidCharacters.vi"/>
@@ -812,40 +812,12 @@
 			<Item Name="Create String and Serialize Cluster Data in UI.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migration Logic/subVIs/Scripting VIs/Create String and Serialize Cluster Data in UI.vi"/>
 			<Item Name="Logic for Default Case Multiple.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migration Logic/subVIs/Scripting VIs/Logic for Default Case Multiple.vi"/>
 			<Item Name="Save Projects and Libraries.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migration Logic/subVIs/common/Save Projects and Libraries.vi"/>
-			<Item Name="Get Drivers List.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get Drivers List.vi"/>
-			<Item Name="Get Code Module Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get Code Module Path.vi"/>
-			<Item Name="Get Project Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get Project Path.vi"/>
 			<Item Name="Get Measurement Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get Measurement Name.vi"/>
 			<Item Name="Get Instrument VI Paths.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get Instrument VI Paths.vi"/>
 			<Item Name="Get SubroutineInfo.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get SubroutineInfo.vi"/>
 			<Item Name="Set LogStatus.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set LogStatus.vi"/>
 			<Item Name="Set SubroutineInfo.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set SubroutineInfo.vi"/>
-			<Item Name="String Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/constants/String Name.vi"/>
-			<Item Name="Set Clusters String Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set Clusters String Name.vi"/>
-			<Item Name="Set DAQ Control Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set DAQ Control Name.vi"/>
-			<Item Name="Set IVIControls Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set IVIControls Name.vi"/>
-			<Item Name="Set Result Cluster Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set Result Cluster Name.vi"/>
-			<Item Name="Save VI and Close Refnum.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Save VI and Close Refnum.vi"/>
-			<Item Name="Get IVIControls Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get IVIControls Name.vi"/>
-			<Item Name="Pin Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/constants/Pin Name.vi"/>
-			<Item Name="Set PinNames Label.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set PinNames Label.vi"/>
-			<Item Name="Call FP Cleanup.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Cleanup VIs/Call FP Cleanup.vi"/>
-			<Item Name="Insert Node.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Cleanup VIs/Insert Node.vi"/>
-			<Item Name="Autosize Cluster.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Autosize Cluster.vi"/>
-			<Item Name="Get DAQ Control Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get DAQ Control Name.vi"/>
-			<Item Name="Get PinNames List.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get PinNames List.vi"/>
-			<Item Name="Get Cluster Reference.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get Cluster Reference.vi"/>
-			<Item Name="Get LVClass Control Reference.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get LVClass Control Reference.vi"/>
-			<Item Name="Call BD Cleanup.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Cleanup VIs/Call BD Cleanup.vi"/>
-			<Item Name="Get Result Cluster Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get Result Cluster Name.vi"/>
-			<Item Name="Set IO Controls.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set IO Controls.vi"/>
-			<Item Name="Get IO Controls.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get IO Controls.vi"/>
-			<Item Name="Get Clusters String Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get Clusters String Name.vi"/>
-			<Item Name="Set Drivers List.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set Drivers List.vi"/>
-			<Item Name="Default Value State Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/constants/Default Value State Name.vi"/>
 			<Item Name="Set Instrument VI Paths.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set Instrument VI Paths.vi"/>
-			<Item Name="DirectoriesToIgnore.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/constants/DirectoriesToIgnore.vi"/>
-			<Item Name="Loading option.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/constants/Loading option.vi"/>
 			<Item Name="Dictionary States.ctl" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/controls/Dictionary States.ctl"/>
 			<Item Name="Set Measurement Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set Measurement Name.vi"/>
 			<Item Name="Convert Dependencies.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Multiple Migrator/Convert Dependencies.vi"/>
@@ -853,7 +825,48 @@
 			<Item Name="Set Project Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set Project Path.vi"/>
 			<Item Name="Dictionary.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Dictionary.vi"/>
 			<Item Name="Set Cursor Icon.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Setter/Set Cursor Icon.vi"/>
+			<Item Name="Error Logger Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Path Functions/subVIs/Error Logger Path.vi"/>
+			<Item Name="Create File if not present.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Path Functions/subVIs/Create File if not present.vi"/>
+			<Item Name="Validate Dir and Create Dir.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Path Functions/subVIs/Validate Dir and Create Dir.vi"/>
+			<Item Name="Queue Driver.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Queue Driver/Queue Driver.vi"/>
+			<Item Name="Queue Operations.ctl" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Queue Driver/controls/Queue Operations.ctl"/>
+			<Item Name="Get Default Project Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Path Functions/subVIs/Get Default Project Path.vi"/>
+			<Item Name="MeasLink Plugin Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Path Functions/subVIs/MeasLink Plugin Path.vi"/>
+			<Item Name="Measurement Plugin Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Path Functions/subVIs/Measurement Plugin Path.vi"/>
+			<Item Name="Get Measurement Paths.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Path Functions/subVIs/Get Measurement Paths.vi"/>
+			<Item Name="Get Drivers List.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get Drivers List.vi"/>
+			<Item Name="Get Code Module Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get Code Module Path.vi"/>
+			<Item Name="Get Project Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get Project Path.vi"/>
+			<Item Name="Get Measurement Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get Measurement Name.vi"/>
 			<Item Name="Migrate Measurement.vi" Type="VI" URL="../Migrate Measurement.vi"/>
+			<Item Name="String Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/constants/String Name.vi"/>
+			<Item Name="Set Clusters String Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Setter/Set Clusters String Name.vi"/>
+			<Item Name="Set DAQ Control Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Setter/Set DAQ Control Name.vi"/>
+			<Item Name="Set IVIControls Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Setter/Set IVIControls Name.vi"/>
+			<Item Name="Set Result Cluster Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Setter/Set Result Cluster Name.vi"/>
+			<Item Name="Get Instrument VI Paths.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get Instrument VI Paths.vi"/>
+			<Item Name="Save VI and Close Refnum.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Save VI and Close Refnum.vi"/>
+			<Item Name="Get IVIControls Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get IVIControls Name.vi"/>
+			<Item Name="Pin Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/constants/Pin Name.vi"/>
+			<Item Name="Set PinNames Label.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Setter/Set PinNames Label.vi"/>
+			<Item Name="Call FP Cleanup.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Cleanup VIs/Call FP Cleanup.vi"/>
+			<Item Name="Insert Node.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Cleanup VIs/Insert Node.vi"/>
+			<Item Name="Autosize Cluster.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Autosize Cluster.vi"/>
+			<Item Name="Get DAQ Control Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get DAQ Control Name.vi"/>
+			<Item Name="Get PinNames List.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get PinNames List.vi"/>
+			<Item Name="Get Cluster Reference.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get Cluster Reference.vi"/>
+			<Item Name="Get LVClass Control Reference.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get LVClass Control Reference.vi"/>
+			<Item Name="Call BD Cleanup.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Cleanup VIs/Call BD Cleanup.vi"/>
+			<Item Name="Get Result Cluster Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get Result Cluster Name.vi"/>
+			<Item Name="Set IO Controls.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Setter/Set IO Controls.vi"/>
+			<Item Name="Get IO Controls.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get IO Controls.vi"/>
+			<Item Name="Get Clusters String Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Getter/Get Clusters String Name.vi"/>
+			<Item Name="Set Drivers List.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Setter/Set Drivers List.vi"/>
+			<Item Name="Set SubroutineInfo.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Setter/Set SubroutineInfo.vi"/>
+			<Item Name="Default Value State Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/constants/Default Value State Name.vi"/>
+			<Item Name="Set Instrument VI Paths.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/Setter/Set Instrument VI Paths.vi"/>
+			<Item Name="DirectoriesToIgnore.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/constants/DirectoriesToIgnore.vi"/>
+			<Item Name="Loading option.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Migrator Reusables/subVIs/constants/Loading option.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
