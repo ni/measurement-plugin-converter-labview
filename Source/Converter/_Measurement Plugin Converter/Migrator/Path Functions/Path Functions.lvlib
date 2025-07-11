@@ -12,7 +12,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Code Migration Paths.vi" Type="VI" URL="../subVIs/Code Migration Paths.vi"/>
+		<Item Name="Code Conversion Paths.vi" Type="VI" URL="../subVIs/Code Conversion Paths.vi"/>
 		<Item Name="Create Directory for Dependent Items.vi" Type="VI" URL="../subVIs/Create Directory for Dependent Items.vi"/>
 		<Item Name="Create File if not present.vi" Type="VI" URL="../subVIs/Create File if not present.vi"/>
 		<Item Name="Error Logger Path.vi" Type="VI" URL="../subVIs/Error Logger Path.vi"/>
