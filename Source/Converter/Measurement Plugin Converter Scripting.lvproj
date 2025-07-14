@@ -755,9 +755,6 @@
 			<Item Name="AB_UI_Obtain_Source_Item.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Obtain_Source_Item.vi"/>
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
-			<Item Name="Get Measurement Name.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/subVIs/Getter/Get Measurement Name.vi"/>
-			<Item Name="Error Logger Path.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Path Functions/subVIs/Error Logger Path.vi"/>
-			<Item Name="Create File if not present.vi" Type="VI" URL="../_Measurement Plugin Converter/Migrator/Path Functions/subVIs/Create File if not present.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
