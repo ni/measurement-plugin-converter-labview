@@ -63,7 +63,6 @@
 			</Item>
 			<Item Name="Converter" Type="Folder">
 				<Item Name="Path Functions" Type="Folder">
-<<<<<<<< HEAD:Source/Converter/Measurement Plugin Converter Scripting.lvproj
 					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Path Functions/Path Functions.lvlib"/>
 				</Item>
 				<Item Name="Converter Reusables" Type="Folder">
@@ -77,21 +76,6 @@
 				</Item>
 				<Item Name="Multiple Converter" Type="Folder">
 					<Item Name="Multiple Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Multiple Converter/Multiple Converter.lvlib"/>
-========
-					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Path Functions/Path Functions.lvlib"/>
-				</Item>
-				<Item Name="Migrator Reusables" Type="Folder">
-					<Item Name="Migrator Reusables.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Migrator Reusables/Migrator Reusables.lvlib"/>
-				</Item>
-				<Item Name="Queue Driver" Type="Folder">
-					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Queue Driver/Queue Driver.lvlib"/>
-				</Item>
-				<Item Name="Migration Logic" Type="Folder">
-					<Item Name="Migrator.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Migration Logic/Migrator.lvlib"/>
-				</Item>
-				<Item Name="Multiple Migrator" Type="Folder">
-					<Item Name="Multiple Migrator.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Migrator/Multiple Migrator/Multiple Migrator.lvlib"/>
->>>>>>>> f4dfe076b7598a4bb50161019bcb57f74a2afe15:Source/Converter/Measurement Migration Tool.lvproj
 				</Item>
 			</Item>
 		</Item>
@@ -143,10 +127,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Palette Menu.lvlib" Type="Library" URL="/&lt;vilib&gt;/Palette API/Palette Menu/Palette Menu.lvlib"/>
-<<<<<<<< HEAD:Source/Converter/Measurement Plugin Converter Scripting.lvproj
-========
-				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
->>>>>>>> f4dfe076b7598a4bb50161019bcb57f74a2afe15:Source/Converter/Measurement Migration Tool.lvproj
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -580,24 +560,6 @@
 				<Item Name="TestStand API String Constants.vi" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand API String Constants.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
-<<<<<<<< HEAD:Source/Converter/Measurement Plugin Converter Scripting.lvproj
-========
-				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
-				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
-				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
-				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
-				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
-				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
-				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
-				<Item Name="File Dialog - LabVIEW Files.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/File Dialog - LabVIEW Files.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="VIAnUtil Get Terminal Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Get Terminal Data Type.vi"/>
-				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
-				<Item Name="Insert_Fix Node Terminals.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Fix Node Terminals.vi"/>
-				<Item Name="Insert_Reposition Node Vertically.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Reposition Node Vertically.vi"/>
-				<Item Name="Insert_Rewire Terminal.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Rewire Terminal.vi"/>
->>>>>>>> f4dfe076b7598a4bb50161019bcb57f74a2afe15:Source/Converter/Measurement Migration Tool.lvproj
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
@@ -613,11 +575,6 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-<<<<<<<< HEAD:Source/Converter/Measurement Plugin Converter Scripting.lvproj
-========
-				<Item Name="Remove and Rewire Objects_core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Remove and Rewire Objects_core.vi"/>
-				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
->>>>>>>> f4dfe076b7598a4bb50161019bcb57f74a2afe15:Source/Converter/Measurement Migration Tool.lvproj
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
 				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
@@ -625,7 +582,6 @@
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-<<<<<<<< HEAD:Source/Converter/Measurement Plugin Converter Scripting.lvproj
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
@@ -644,8 +600,6 @@
 				<Item Name="Insert_Rewire Terminal.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Rewire Terminal.vi"/>
 				<Item Name="Remove and Rewire Objects_core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Remove and Rewire Objects_core.vi"/>
 				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
-========
->>>>>>>> f4dfe076b7598a4bb50161019bcb57f74a2afe15:Source/Converter/Measurement Migration Tool.lvproj
 			</Item>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
 			<Item Name="provcom_CheckForInvalidCharacters.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckForInvalidCharacters.vi"/>
