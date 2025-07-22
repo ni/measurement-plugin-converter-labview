@@ -8,15 +8,15 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Add Header.vi" Type="VI" URL="../SubVI/Add Header.vi"/>
-		<Item Name="Create Log File Path.vi" Type="VI" URL="../SubVI/Create Log File Path.vi"/>
-		<Item Name="Create Log File.vi" Type="VI" URL="../SubVI/Create Log File.vi"/>
-		<Item Name="Custom Debug Data.vi" Type="VI" URL="../SubVI/Custom Debug Data.vi"/>
-		<Item Name="Log and Create New if Required.vi" Type="VI" URL="../SubVI/Log and Create New if Required.vi"/>
-		<Item Name="Log to File.vi" Type="VI" URL="../SubVI/Log to File.vi"/>
+		<Item Name="Add Header.vi" Type="VI" URL="../SubVIs/Add Header.vi"/>
+		<Item Name="Create Log File Path.vi" Type="VI" URL="../SubVIs/Create Log File Path.vi"/>
+		<Item Name="Create Log File.vi" Type="VI" URL="../SubVIs/Create Log File.vi"/>
+		<Item Name="Custom Debug Data.vi" Type="VI" URL="../SubVIs/Custom Debug Data.vi"/>
+		<Item Name="Log and Create New if Required.vi" Type="VI" URL="../SubVIs/Log and Create New if Required.vi"/>
+		<Item Name="Log to File.vi" Type="VI" URL="../SubVIs/Log to File.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
-		<Item Name="Event Data Cluster.ctl" Type="VI" URL="../TypeDef/Event Data Cluster.ctl"/>
-		<Item Name="Event Values.ctl" Type="VI" URL="../TypeDef/Event Values.ctl"/>
+		<Item Name="Event Data Cluster.ctl" Type="VI" URL="../TypeDefs/Event Data Cluster.ctl"/>
+		<Item Name="Event Values.ctl" Type="VI" URL="../TypeDefs/Event Values.ctl"/>
 	</Item>
 </Library>
