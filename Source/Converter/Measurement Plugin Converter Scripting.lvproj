@@ -54,13 +54,8 @@
 				<Item Name="Sequence Creation" Type="Folder">
 					<Item Name="Create Sequence.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Utilities/Sequence Creation/Create Sequence.lvlib"/>
 				</Item>
-				<Item Name="Logger Utilities" Type="Folder">
-					<Item Name="Error Logger" Type="Folder">
-						<Item Name="Error Logger.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Utilities/Logger Utilities/Error Logger/Error Logger.lvlib"/>
-					</Item>
-					<Item Name="Event Logger" Type="Folder">
-						<Item Name="Event Logger.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Utilities/Logger Utilities/Event Logger/Event Logger.lvlib"/>
-					</Item>
+				<Item Name="Event Logger" Type="Folder">
+					<Item Name="Event Logger.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Utilities/Logger Utilities/Event Logger/Event Logger.lvlib"/>
 				</Item>
 			</Item>
 			<Item Name="Converter" Type="Folder">
@@ -559,16 +554,6 @@
 				<Item Name="AB_RW_Project_Packed_Lib_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Packed_Lib_Data.ctl"/>
 				<Item Name="AB_API Link And Expand.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Link And Expand.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
-				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
@@ -757,7 +742,6 @@
 			<Item Name="AB_UI_Obtain_Source_Item.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Obtain_Source_Item.vi"/>
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
-			<Item Name="Verify TestStand Availability.vi" Type="VI" URL="../_Measurement Plugin Converter/Utilities/Sequence Creation/SubVI/Verify TestStand Availability.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

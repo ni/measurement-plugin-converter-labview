@@ -9,9 +9,9 @@
 </Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Label.vi" Type="VI" URL="../SubVIs/Add Label.vi"/>
-		<Item Name="Add Labels In Cleanup Group.vi" Type="VI" URL="../SubVIs/Add Labels In Cleanup Group.vi"/>
-		<Item Name="Add Labels In Main Group.vi" Type="VI" URL="../SubVIs/Add Labels In Main Group.vi"/>
-		<Item Name="Add Labels In Setup Group.vi" Type="VI" URL="../SubVIs/Add Labels In Setup Group.vi"/>
+		<Item Name="Add Labels in Cleanup Group.vi" Type="VI" URL="../SubVIs/Add Labels in Cleanup Group.vi"/>
+		<Item Name="Add Labels in Main Group.vi" Type="VI" URL="../SubVIs/Add Labels in Main Group.vi"/>
+		<Item Name="Add Labels in Setup Group.vi" Type="VI" URL="../SubVIs/Add Labels in Setup Group.vi"/>
 		<Item Name="Verify TestStand Availability.vi" Type="VI" URL="../SubVIs/Verify TestStand Availability.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
