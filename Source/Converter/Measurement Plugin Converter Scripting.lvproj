@@ -31,7 +31,7 @@
 					<Item Name="Read Default Values.vi" Type="VI" URL="../_Measurement Plugin Converter/Templates/Read Default Values/Read Default Values.vi"/>
 				</Item>
 				<Item Name="Controls" Type="Folder">
-					<Item Name="Combo Box1.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/Combo Box1.ctl"/>
+					<Item Name="Combo Box.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/Combo Box.ctl"/>
 					<Item Name="System String.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/System String.ctl"/>
 					<Item Name="String.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/String.ctl"/>
 				</Item>
