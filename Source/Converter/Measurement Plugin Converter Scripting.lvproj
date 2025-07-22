@@ -42,11 +42,12 @@
 				</Item>
 			</Item>
 			<Item Name="Measurement Plugin Generator" Type="Folder">
-				<Item Name="_Editor" Type="Folder">
-					<Item Name="NI_AB_API_EXE_Extensions" Type="Folder">
-						<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_Editor/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
-					</Item>
-					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_Editor/MeasurementService Editor.lvlib"/>
+				<Item Name="Service Generator" Type="Folder">
+					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_MeasurementService Utility/MeasurementService Editor.lvlib"/>
+					<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_MeasurementService Utility/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
+				</Item>
+				<Item Name="Generator Helpers" Type="Folder">
+					<Item Name="Generator Helpers.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_Generator Helpers/Generator Helpers.lvlib"/>
 				</Item>
 			</Item>
 			<Item Name="Utilities" Type="Folder">
@@ -756,6 +757,7 @@
 			<Item Name="AB_UI_Obtain_Source_Item.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Obtain_Source_Item.vi"/>
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
+			<Item Name="Get Reserved Names.vi" Type="VI" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_Editor/Get Reserved Names.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
