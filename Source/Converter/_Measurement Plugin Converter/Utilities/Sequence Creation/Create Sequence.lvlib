@@ -8,20 +8,14 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Add Label.vi" Type="VI" URL="../SubVI/Add Label.vi"/>
-		<Item Name="Add Labels In Cleanup Group.vi" Type="VI" URL="../SubVI/Add Labels In Cleanup Group.vi"/>
-		<Item Name="AddLabelsInMainGroup.vi" Type="VI" URL="../SubVI/AddLabelsInMainGroup.vi"/>
-		<Item Name="AddLabelsInSetupGroup.vi" Type="VI" URL="../SubVI/AddLabelsInSetupGroup.vi"/>
-		<Item Name="AddLVActionStep.vi" Type="VI" URL="../SubVI/AddLVActionStep.vi"/>
-		<Item Name="AddParameters.vi" Type="VI" URL="../SubVI/AddParameters.vi"/>
-		<Item Name="AddStatement.vi" Type="VI" URL="../SubVI/AddStatement.vi"/>
-		<Item Name="Create FileGlobal.vi" Type="VI" URL="../SubVI/Create FileGlobal.vi"/>
-		<Item Name="CreatePostUUTSequence.vi" Type="VI" URL="../SubVI/CreatePostUUTSequence.vi"/>
-		<Item Name="GetTestPartValue.vi" Type="VI" URL="../SubVI/GetTestPartValue.vi"/>
-		<Item Name="VerifyTestStandAvailability.vi" Type="VI" URL="../SubVI/VerifyTestStandAvailability.vi"/>
+		<Item Name="Add Label.vi" Type="VI" URL="../SubVIs/Add Label.vi"/>
+		<Item Name="Add Labels In Cleanup Group.vi" Type="VI" URL="../SubVIs/Add Labels In Cleanup Group.vi"/>
+		<Item Name="Add Labels In Main Group.vi" Type="VI" URL="../SubVIs/Add Labels In Main Group.vi"/>
+		<Item Name="Add Labels In Setup Group.vi" Type="VI" URL="../SubVIs/Add Labels In Setup Group.vi"/>
+		<Item Name="Verify TestStand Availability.vi" Type="VI" URL="../SubVIs/Verify TestStand Availability.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
 		<Item Name="Step Properties.ctl" Type="VI" URL="../TypeDef/Step Properties.ctl"/>
 	</Item>
-	<Item Name="CreateSequence_Main.vi" Type="VI" URL="../CreateSequence_Main.vi"/>
+	<Item Name="Create Sequence Main.vi" Type="VI" URL="../Create Sequence Main.vi"/>
 </Library>
