@@ -742,10 +742,6 @@
 			<Item Name="AB_UI_Obtain_Source_Item.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Obtain_Source_Item.vi"/>
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
-			<Item Name="Event Data Cluster.ctl" Type="VI" URL="../_Measurement Plugin Converter/Utilities/Event Logger/TypeDef/Event Data Cluster.ctl"/>
-			<Item Name="Event Values.ctl" Type="VI" URL="../_Measurement Plugin Converter/Utilities/Event Logger/TypeDef/Event Values.ctl"/>
-			<Item Name="Create Log File.vi" Type="VI" URL="../_Measurement Plugin Converter/Utilities/Event Logger/SubVI/Create Log File.vi"/>
-			<Item Name="Log to File.vi" Type="VI" URL="../_Measurement Plugin Converter/Utilities/Event Logger/SubVI/Log to File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

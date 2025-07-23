@@ -10,8 +10,8 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Header.vi" Type="VI" URL="../SubVIs/Add Header.vi"/>
 		<Item Name="Create Log File Path.vi" Type="VI" URL="../SubVIs/Create Log File Path.vi"/>
-		<Item Name="Create Log File.vi" Type="VI" URL="../SubVIs/Create Log File.vi"/>
 		<Item Name="Custom Debug Data.vi" Type="VI" URL="../SubVIs/Custom Debug Data.vi"/>
+		<Item Name="Initialize Logger.vi" Type="VI" URL="../SubVIs/Initialize Logger.vi"/>
 		<Item Name="Log and Create New if Required.vi" Type="VI" URL="../SubVIs/Log and Create New if Required.vi"/>
 		<Item Name="Log to File.vi" Type="VI" URL="../SubVIs/Log to File.vi"/>
 	</Item>
