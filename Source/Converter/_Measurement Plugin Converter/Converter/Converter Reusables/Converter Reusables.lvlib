@@ -45,6 +45,7 @@
 		<Item Name="Setter" Type="Folder">
 			<Item Name="Set Clusters String Name.vi" Type="VI" URL="../SubVIs/Setter/Set Clusters String Name.vi"/>
 			<Item Name="Set Code Module Path.vi" Type="VI" URL="../SubVIs/Setter/Set Code Module Path.vi"/>
+			<Item Name="Set Cursor Icon.vi" Type="VI" URL="../SubVIs/Setter/Set Cursor Icon.vi"/>
 			<Item Name="Set DAQ Control Name.vi" Type="VI" URL="../SubVIs/Setter/Set DAQ Control Name.vi"/>
 			<Item Name="Set Drivers List.vi" Type="VI" URL="../SubVIs/Setter/Set Drivers List.vi"/>
 			<Item Name="Set Instrument VI Paths.vi" Type="VI" URL="../SubVIs/Setter/Set Instrument VI Paths.vi"/>
@@ -58,7 +59,6 @@
 			<Item Name="Set Subroutine Info.vi" Type="VI" URL="../SubVIs/Setter/Set Subroutine Info.vi"/>
 		</Item>
 		<Item Name="Autosize Cluster.vi" Type="VI" URL="../SubVIs/Autosize Cluster.vi"/>
-		<Item Name="Set Cursor Icon.vi" Type="VI" URL="../SubVIs/Setter/Set Cursor Icon.vi"/>
 		<Item Name="Dictionary.vi" Type="VI" URL="../SubVIs/Dictionary.vi"/>
 		<Item Name="Save VI and Close Refnum.vi" Type="VI" URL="../SubVIs/Save VI and Close Refnum.vi"/>
 	</Item>
