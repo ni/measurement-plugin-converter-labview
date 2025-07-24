@@ -12,18 +12,18 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="controls" Type="Folder">
-		<Item Name="Dictionary States.ctl" Type="VI" URL="../controls/Dictionary States.ctl"/>
-		<Item Name="ErrorInformation.ctl" Type="VI" URL="../controls/ErrorInformation.ctl"/>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="Dictionary States.ctl" Type="VI" URL="../TypeDefs/Dictionary States.ctl"/>
+		<Item Name="Error Information.ctl" Type="VI" URL="../TypeDefs/Error Information.ctl"/>
 	</Item>
-	<Item Name="subVIs" Type="Folder">
+	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Cleanup VIs" Type="Folder">
-			<Item Name="Call BD Cleanup.vi" Type="VI" URL="../subVIs/Cleanup VIs/Call BD Cleanup.vi"/>
+			<Item Name="Call BD Cleanup.vi" Type="VI" URL="../SubVIs/Cleanup VIs/Call BD Cleanup.vi"/>
 			<Item Name="Call FP Cleanup.vi" Type="VI" URL="../subVIs/Cleanup VIs/Call FP Cleanup.vi"/>
-			<Item Name="Dummy.vi" Type="VI" URL="../subVIs/Cleanup VIs/Dummy.vi"/>
+			<Item Name="Dummy.vi" Type="VI" URL="../SubVIs/Cleanup VIs/Dummy.vi"/>
 			<Item Name="Insert Node.vi" Type="VI" URL="../subVIs/Cleanup VIs/Insert Node.vi"/>
 		</Item>
-		<Item Name="constants" Type="Folder">
+		<Item Name="Constants" Type="Folder">
 			<Item Name="Default Value State Name.vi" Type="VI" URL="../subVIs/constants/Default Value State Name.vi"/>
 			<Item Name="Pin Name.vi" Type="VI" URL="../subVIs/constants/Pin Name.vi"/>
 			<Item Name="Loading option.vi" Type="VI" URL="../subVIs/constants/Loading option.vi"/>

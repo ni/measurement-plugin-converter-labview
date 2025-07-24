@@ -14,6 +14,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Code Conversion Paths.vi" Type="VI" URL="../SubVIs/Code Conversion Paths.vi"/>
 		<Item Name="Create Directory for Dependent Items.vi" Type="VI" URL="../SubVIs/Create Directory for Dependent Items.vi"/>
+		<Item Name="Create Directory.vi" Type="VI" URL="../SubVIs/Create Directory.vi"/>
 		<Item Name="Get Default Project Path.vi" Type="VI" URL="../SubVIs/Get Default Project Path.vi"/>
 		<Item Name="Get MeasLink API Path.vi" Type="VI" URL="../SubVIs/Get MeasLink API Path.vi"/>
 		<Item Name="Get Measurement Paths.vi" Type="VI" URL="../SubVIs/Get Measurement Paths.vi"/>
@@ -22,6 +23,5 @@
 		<Item Name="MeasLink Plugin Path.vi" Type="VI" URL="../SubVIs/MeasLink Plugin Path.vi"/>
 		<Item Name="Measurement Plugin Path.vi" Type="VI" URL="../SubVIs/Measurement Plugin Path.vi"/>
 		<Item Name="Remove Empty Path.vi" Type="VI" URL="../SubVIs/Remove Empty Path.vi"/>
-		<Item Name="Validate Dir and Create Dir.vi" Type="VI" URL="../SubVIs/Validate Dir and Create Dir.vi"/>
 	</Item>
 </Library>

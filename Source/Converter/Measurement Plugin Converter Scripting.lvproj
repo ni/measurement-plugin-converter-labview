@@ -742,6 +742,8 @@
 			<Item Name="AB_UI_Obtain_Source_Item.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Obtain_Source_Item.vi"/>
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
+			<Item Name="Dictionary States.ctl" Type="VI" URL="../_Measurement Plugin Converter/Converter/Converter Reusables/controls/Dictionary States.ctl"/>
+			<Item Name="Error Information.ctl" Type="VI" URL="../_Measurement Plugin Converter/Converter/Converter Reusables/controls/Error Information.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
