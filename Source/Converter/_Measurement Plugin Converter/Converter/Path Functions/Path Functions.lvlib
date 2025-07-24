@@ -16,12 +16,11 @@
 		<Item Name="Create Directory.vi" Type="VI" URL="../SubVIs/Create Directory.vi"/>
 		<Item Name="Create Relative Path for Dependency.vi" Type="VI" URL="../SubVIs/Create Relative Path for Dependency.vi"/>
 		<Item Name="Get Default Project Path.vi" Type="VI" URL="../SubVIs/Get Default Project Path.vi"/>
-		<Item Name="Get MeasLink API Path.vi" Type="VI" URL="../SubVIs/Get MeasLink API Path.vi"/>
 		<Item Name="Get Measurement Paths.vi" Type="VI" URL="../SubVIs/Get Measurement Paths.vi"/>
-		<Item Name="Get Path List.vi" Type="VI" URL="../SubVIs/Get Path List.vi"/>
+		<Item Name="Get Measurement Plug-in API Paths.vi" Type="VI" URL="../SubVIs/Get Measurement Plug-in API Paths.vi"/>
 		<Item Name="LabVIEW Dependencies Path.vi" Type="VI" URL="../SubVIs/LabVIEW Dependencies Path.vi"/>
-		<Item Name="MeasLink Plugin Path.vi" Type="VI" URL="../SubVIs/MeasLink Plugin Path.vi"/>
-		<Item Name="Measurement Plugin Path.vi" Type="VI" URL="../SubVIs/Measurement Plugin Path.vi"/>
+		<Item Name="Measurement Plugin Path - Multiple Converter.vi" Type="VI" URL="../SubVIs/Measurement Plugin Path - Multiple Converter.vi"/>
+		<Item Name="Measurement Plugin Path - Single Converter.vi" Type="VI" URL="../SubVIs/Measurement Plugin Path - Single Converter.vi"/>
 		<Item Name="Remove Empty Path.vi" Type="VI" URL="../SubVIs/Remove Empty Path.vi"/>
 	</Item>
 </Library>

@@ -17,13 +17,12 @@
 			<Item Name="Call BD Cleanup.vi" Type="VI" URL="../SubVIs/Cleanup VIs/Call BD Cleanup.vi"/>
 			<Item Name="Call FP Cleanup.vi" Type="VI" URL="../SubVIs/Cleanup VIs/Call FP Cleanup.vi"/>
 			<Item Name="Dummy.vi" Type="VI" URL="../SubVIs/Cleanup VIs/Dummy.vi"/>
-			<Item Name="Insert Node.vi" Type="VI" URL="../SubVIs/Cleanup VIs/Insert Node.vi"/>
 		</Item>
 		<Item Name="Constants" Type="Folder">
 			<Item Name="Default Value State Name.vi" Type="VI" URL="../SubVIs/Constants/Default Value State Name.vi"/>
-			<Item Name="Pin Name.vi" Type="VI" URL="../SubVIs/Constants/Pin Name.vi"/>
+			<Item Name="Directories to Ignore.vi" Type="VI" URL="../SubVIs/Constants/Directories to Ignore.vi"/>
 			<Item Name="Loading option.vi" Type="VI" URL="../SubVIs/Constants/Loading option.vi"/>
-			<Item Name="DirectoriesToIgnore.vi" Type="VI" URL="../SubVIs/Constants/DirectoriesToIgnore.vi"/>
+			<Item Name="Pin Name.vi" Type="VI" URL="../SubVIs/Constants/Pin Name.vi"/>
 			<Item Name="String Name.vi" Type="VI" URL="../SubVIs/Constants/String Name.vi"/>
 		</Item>
 		<Item Name="Getter" Type="Folder">
