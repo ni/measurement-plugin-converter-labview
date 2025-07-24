@@ -121,7 +121,7 @@
 			<Item Name="Validate Meas Name in Library.vi" Type="VI" URL="../subVIs/Validators/Validate Meas Name in Library.vi"/>
 			<Item Name="VerifyNonNI_Instruments.vi" Type="VI" URL="../subVIs/Validators/VerifyNonNI_Instruments.vi"/>
 		</Item>
-		<Item Name="common" Type="Folder">
+		<Item Name="Common" Type="Folder">
 			<Item Name="Build Type Specialization Value.vi" Type="VI" URL="../subVIs/common/Build Type Specialization Value.vi"/>
 			<Item Name="Add VI to lib.vi" Type="VI" URL="../subVIs/common/Add VI to lib.vi"/>
 			<Item Name="Check if Error or Channel Controls.vi" Type="VI" URL="../subVIs/common/Check if Error or Channel Controls.vi"/>
@@ -136,7 +136,7 @@
 			<Item Name="Create and Save Project.vi" Type="VI" URL="../subVIs/common/Create and Save Project.vi"/>
 			<Item Name="Save Projects and Libraries.vi" Type="VI" URL="../subVIs/common/Save Projects and Libraries.vi"/>
 		</Item>
-		<Item Name="Dependency migration" Type="Folder">
+		<Item Name="Dependency Migration" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="ConvertLibraryAndOtherfiles.vi" Type="VI" URL="../subVIs/Dependency Migration/ConvertLibraryAndOtherfiles.vi"/>
 			<Item Name="CreateLibIfNotPresent.vi" Type="VI" URL="../subVIs/Dependency Migration/CreateLibIfNotPresent.vi"/>
@@ -191,7 +191,7 @@
 		</Item>
 		<Item Name="Data Holder.ctl" Type="VI" URL="../controls/Data Holder.ctl"/>
 		<Item Name="Input Data.ctl" Type="VI" URL="../controls/Input Data.ctl"/>
-		<Item Name="LibraryData.ctl" Type="VI" URL="../controls/LibraryData.ctl"/>
+		<Item Name="Library Data.ctl" Type="VI" URL="../controls/Library Data.ctl"/>
 		<Item Name="Module Data.ctl" Type="VI" URL="../controls/Module Data.ctl"/>
 	</Item>
 </Library>

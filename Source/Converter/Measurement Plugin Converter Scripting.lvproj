@@ -68,11 +68,11 @@
 				<Item Name="Queue Driver" Type="Folder">
 					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Queue Driver/Queue Driver.lvlib"/>
 				</Item>
-				<Item Name="Conversion Logic" Type="Folder">
-					<Item Name="Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Conversion Logic/Converter.lvlib"/>
-				</Item>
 				<Item Name="Multiple Converter" Type="Folder">
 					<Item Name="Multiple Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Multiple Converter/Multiple Converter.lvlib"/>
+				</Item>
+				<Item Name="Conversion Logic" Type="Folder">
+					<Item Name="Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Conversion Logic/Converter.lvlib"/>
 				</Item>
 			</Item>
 		</Item>
@@ -580,8 +580,6 @@
 				<Item Name="Insert_Fix Node Terminals.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Fix Node Terminals.vi"/>
 				<Item Name="Insert_Reposition Node Vertically.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Reposition Node Vertically.vi"/>
 				<Item Name="Insert_Rewire Terminal.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Insert_Rewire Terminal.vi"/>
-				<Item Name="Remove and Rewire Objects_core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Remove and Rewire Objects_core.vi"/>
-				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 				<Item Name="TestStand API String Constants.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand API String Constants.ctl"/>
 				<Item Name="TestStand API String Constants.vi" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand API String Constants.vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
