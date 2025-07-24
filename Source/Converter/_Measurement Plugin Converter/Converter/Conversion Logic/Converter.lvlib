@@ -139,7 +139,7 @@
 		<Item Name="Dependency Migration" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Convert Library and Other Files.vi" Type="VI" URL="../SubVIs/Dependency Migration/Convert Library and Other Files.vi"/>
-			<Item Name="Create Lib if not Present.vi" Type="VI" URL="../SubVIs/Dependency Migration/Create Lib if not Present.vi"/>
+			<Item Name="Create Library if not Present.vi" Type="VI" URL="../SubVIs/Dependency Migration/Create Library if not Present.vi"/>
 			<Item Name="Create Virtual Folder.vi" Type="VI" URL="../SubVIs/Dependency Migration/Create Virtual Folder.vi"/>
 			<Item Name="Dependency Migration Main.vi" Type="VI" URL="../SubVIs/Dependency Migration/Dependency Migration Main.vi"/>
 			<Item Name="Filter Existing VIs.vi" Type="VI" URL="../SubVIs/Dependency Migration/Filter Existing VIs.vi"/>
@@ -147,11 +147,11 @@
 			<Item Name="Get Instrument VIs.vi" Type="VI" URL="../SubVIs/Dependency Migration/Get Instrument VIs.vi"/>
 			<Item Name="Get Missing Dependencies.vi" Type="VI" URL="../SubVIs/Dependency Migration/Get Missing Dependencies.vi"/>
 			<Item Name="Get Recursive Dependency List.vi" Type="VI" URL="../SubVIs/Dependency Migration/Get Recursive Dependency List.vi"/>
-			<Item Name="GetSubVI Paths.vi" Type="VI" URL="../SubVIs/Dependency Migration/GetSubVI Paths.vi"/>
-			<Item Name="ReplaceOutsideItems.vi" Type="VI" URL="../SubVIs/Dependency Migration/ReplaceOutsideItems.vi"/>
-			<Item Name="ReplaceOutsideTypedefConst.vi" Type="VI" URL="../SubVIs/Dependency Migration/ReplaceOutsideTypedefConst.vi"/>
-			<Item Name="ReplaceOutsideTypedefCtrl.vi" Type="VI" URL="../SubVIs/Dependency Migration/ReplaceOutsideTypedefCtrl.vi"/>
-			<Item Name="ReplaceOutsideVIs.vi" Type="VI" URL="../SubVIs/Dependency Migration/ReplaceOutsideVIs.vi"/>
+			<Item Name="Get SubVI Paths.vi" Type="VI" URL="../SubVIs/Dependency Migration/Get SubVI Paths.vi"/>
+			<Item Name="Replace Outside Items.vi" Type="VI" URL="../SubVIs/Dependency Migration/Replace Outside Items.vi"/>
+			<Item Name="Replace Outside Typedef Const.vi" Type="VI" URL="../SubVIs/Dependency Migration/Replace Outside Typedef Const.vi"/>
+			<Item Name="Replace Outside Typedef Ctrl.vi" Type="VI" URL="../SubVIs/Dependency Migration/Replace Outside Typedef Ctrl.vi"/>
+			<Item Name="Replace Outside VIs.vi" Type="VI" URL="../SubVIs/Dependency Migration/Replace Outside VIs.vi"/>
 		</Item>
 		<Item Name="Multiple Conversion" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
