@@ -157,7 +157,6 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Check if Plugin Name in Library.vi" Type="VI" URL="../SubVIs/Multiple Migration/Check if Plugin Name in Library.vi"/>
 			<Item Name="Check Parent Folder Selection.vi" Type="VI" URL="../SubVIs/Multiple Migration/Check Parent Folder Selection.vi"/>
-			<Item Name="Check Tree Item Icon.vi" Type="VI" URL="../SubVIs/Multiple Migration/Check Tree Item Icon.vi"/>
 			<Item Name="Check VI Version.vi" Type="VI" URL="../SubVIs/Multiple Migration/Check VI Version.vi"/>
 			<Item Name="Edit Warning.vi" Type="VI" URL="../SubVIs/Multiple Migration/Edit Warning.vi"/>
 			<Item Name="Get Folder Tag.vi" Type="VI" URL="../SubVIs/Multiple Migration/Get Folder Tag.vi"/>
@@ -172,7 +171,6 @@
 			<Item Name="Set Tree Item Icon.vi" Type="VI" URL="../SubVIs/Multiple Migration/Set Tree Item Icon.vi"/>
 			<Item Name="Tree Icons.vi" Type="VI" URL="../SubVIs/Multiple Migration/Tree Icons.vi"/>
 			<Item Name="Update File Icon.vi" Type="VI" URL="../SubVIs/Multiple Migration/Update File Icon.vi"/>
-			<Item Name="Update Folder Icon.vi" Type="VI" URL="../SubVIs/Multiple Migration/Update Folder Icon.vi"/>
 			<Item Name="Update Tree Item Icon.vi" Type="VI" URL="../SubVIs/Multiple Migration/Update Tree Item Icon.vi"/>
 			<Item Name="Update Tree Item Selection.vi" Type="VI" URL="../SubVIs/Multiple Migration/Update Tree Item Selection.vi"/>
 			<Item Name="Validate File.vi" Type="VI" URL="../SubVIs/Multiple Migration/Validate File.vi"/>
