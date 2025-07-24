@@ -13,8 +13,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Code Conversion Paths.vi" Type="VI" URL="../SubVIs/Code Conversion Paths.vi"/>
-		<Item Name="Create Directory for Dependent Items.vi" Type="VI" URL="../SubVIs/Create Directory for Dependent Items.vi"/>
 		<Item Name="Create Directory.vi" Type="VI" URL="../SubVIs/Create Directory.vi"/>
+		<Item Name="Create Relative Path for Dependency.vi" Type="VI" URL="../SubVIs/Create Relative Path for Dependency.vi"/>
 		<Item Name="Get Default Project Path.vi" Type="VI" URL="../SubVIs/Get Default Project Path.vi"/>
 		<Item Name="Get MeasLink API Path.vi" Type="VI" URL="../SubVIs/Get MeasLink API Path.vi"/>
 		<Item Name="Get Measurement Paths.vi" Type="VI" URL="../SubVIs/Get Measurement Paths.vi"/>
