@@ -80,8 +80,8 @@
 			<Item Name="Delete Controls.vi" Type="VI" URL="../SubVIs/Scripting VIs/Delete Controls.vi"/>
 			<Item Name="Delete Reference.vi" Type="VI" URL="../SubVIs/Scripting VIs/Delete Reference.vi"/>
 			<Item Name="Delete Wire.vi" Type="VI" URL="../SubVIs/Scripting VIs/Delete Wire.vi"/>
-			<Item Name="Deserialize Connections in Wrapper Plugin.vi" Type="VI" URL="../SubVIs/Scripting VIs/Deserialize Connections in Wrapper Plugin.vi"/>
-			<Item Name="Deserialize Connections in Wrapper.vi" Type="VI" URL="../SubVIs/Scripting VIs/Deserialize Connections in Wrapper.vi"/>
+			<Item Name="Deserialize Connections in Wrapper - Multiple Converter.vi" Type="VI" URL="../SubVIs/Scripting VIs/Deserialize Connections in Wrapper - Multiple Converter.vi"/>
+			<Item Name="Deserialize Connections in Wrapper - Single Converter.vi" Type="VI" URL="../SubVIs/Scripting VIs/Deserialize Connections in Wrapper - Single Converter.vi"/>
 			<Item Name="Deserialize Data in Meas UI.vi" Type="VI" URL="../SubVIs/Scripting VIs/Deserialize Data in Meas UI.vi"/>
 			<Item Name="Driver Lists.vi" Type="VI" URL="../SubVIs/Scripting VIs/Driver Lists.vi"/>
 			<Item Name="Edit Connector Pane for Wrapper Indicators.vi" Type="VI" URL="../SubVIs/Scripting VIs/Edit Connector Pane for Wrapper Indicators.vi"/>
@@ -104,7 +104,7 @@
 			<Item Name="Logic for Default Case Multiple.vi" Type="VI" URL="../SubVIs/Scripting VIs/Logic for Default Case Multiple.vi"/>
 			<Item Name="Logic for Default Case.vi" Type="VI" URL="../SubVIs/Scripting VIs/Logic for Default Case.vi"/>
 			<Item Name="Path Type Specialization.vi" Type="VI" URL="../SubVIs/Scripting VIs/Path Type Specialization.vi"/>
-			<Item Name="Project_and_Mlink Template Creation.vi" Type="VI" URL="../SubVIs/Scripting VIs/Project_and_Mlink Template Creation.vi"/>
+			<Item Name="Project and MPlugin Template Creation.vi" Type="VI" URL="../SubVIs/Scripting VIs/Project and MPlugin Template Creation.vi"/>
 			<Item Name="Remove Default connection.vi" Type="VI" URL="../SubVIs/Scripting VIs/Remove Default connection.vi"/>
 			<Item Name="Replace DAQ Controls.vi" Type="VI" URL="../SubVIs/Scripting VIs/Replace DAQ Controls.vi"/>
 			<Item Name="Replace IO Controls.vi" Type="VI" URL="../SubVIs/Scripting VIs/Replace IO Controls.vi"/>
