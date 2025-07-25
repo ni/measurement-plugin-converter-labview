@@ -742,8 +742,6 @@
 			<Item Name="AB_UI_Obtain_Source_Item.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Obtain_Source_Item.vi"/>
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
-			<Item Name="Create String and Serialize Cluster Data.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Conversion Logic/SubVIs/Scripting VIs/Create String and Serialize Cluster Data.vi"/>
-			<Item Name="Deserialize Connections in Wrapper Plugin.vi" Type="VI" URL="../_Measurement Plugin Converter/Converter/Conversion Logic/SubVIs/Scripting VIs/Deserialize Connections in Wrapper Plugin.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
