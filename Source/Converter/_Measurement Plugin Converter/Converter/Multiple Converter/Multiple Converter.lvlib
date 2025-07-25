@@ -15,10 +15,8 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Check Main Measurement for Instrument Drivers.vi" Type="VI" URL="../SubVIs/Check Main Measurement for Instrument Drivers.vi"/>
 		<Item Name="Classify Dependencies.vi" Type="VI" URL="../SubVIs/Classify Dependencies.vi"/>
-		<Item Name="Get New Path of Instrument VIs.vi" Type="VI" URL="../SubVIs/Get New Path of Instrument VIs.vi"/>
 		<Item Name="Create Auto-Populating Folder.vi" Type="VI" URL="../SubVIs/Create Auto-Populating Folder.vi"/>
 		<Item Name="Create Directory for Dependency.vi" Type="VI" URL="../SubVIs/Create Directory for Dependency.vi"/>
 		<Item Name="Create Lib If Not Present.vi" Type="VI" URL="../SubVIs/Create Lib If Not Present.vi"/>
@@ -26,6 +24,7 @@
 		<Item Name="Get Common Dependencies.vi" Type="VI" URL="../SubVIs/Get Common Dependencies.vi"/>
 		<Item Name="Get Dependencies.vi" Type="VI" URL="../SubVIs/Get Dependencies.vi"/>
 		<Item Name="Get Missing Dependencies.vi" Type="VI" URL="../SubVIs/Get Missing Dependencies.vi"/>
+		<Item Name="Get New Path of Instrument VIs.vi" Type="VI" URL="../SubVIs/Get New Path of Instrument VIs.vi"/>
 		<Item Name="Get SubVI Dependencies.vi" Type="VI" URL="../SubVIs/Get SubVI Dependencies.vi"/>
 		<Item Name="Migrate all Measurement Dependencies.vi" Type="VI" URL="../SubVIs/Migrate all Measurement Dependencies.vi"/>
 		<Item Name="Migrate Common Dependencies.vi" Type="VI" URL="../SubVIs/Migrate Common Dependencies.vi"/>
@@ -37,7 +36,7 @@
 		<Item Name="Replace Outside VIs.vi" Type="VI" URL="../SubVIs/Replace Outside VIs.vi"/>
 		<Item Name="Save Project.vi" Type="VI" URL="../SubVIs/Save Project.vi"/>
 	</Item>
-	<Item Name="TypeDefs" Type="Folder">
+	<Item Name="TypeDef" Type="Folder">
 		<Item Name="Library Info.ctl" Type="VI" URL="../TypeDefs/Library Info.ctl"/>
 	</Item>
 	<Item Name="Migrate Dependencies.vi" Type="VI" URL="../Migrate Dependencies.vi"/>
