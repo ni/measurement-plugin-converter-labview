@@ -14,65 +14,65 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Measurement Plugin Converter" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Converter" Type="Folder">
+				<Item Name="Conversion Logic" Type="Folder">
+					<Item Name="Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Conversion Logic/Converter.lvlib"/>
+				</Item>
+				<Item Name="Converter Reusables" Type="Folder">
+					<Item Name="Converter Reusables.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Converter Reusables/Converter Reusables.lvlib"/>
+				</Item>
+				<Item Name="Multiple Converter" Type="Folder">
+					<Item Name="Multiple Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Multiple Converter/Multiple Converter.lvlib"/>
+				</Item>
+				<Item Name="Path Functions" Type="Folder">
+					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Path Functions/Path Functions.lvlib"/>
+				</Item>
+				<Item Name="Queue Driver" Type="Folder">
+					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Queue Driver/Queue Driver.lvlib"/>
+				</Item>
+			</Item>
+			<Item Name="Measurement Plugin Generator" Type="Folder">
+				<Item Name="Generator Helpers" Type="Folder">
+					<Item Name="Generator Helpers.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_Generator Helpers/Generator Helpers.lvlib"/>
+				</Item>
+				<Item Name="Service Generator" Type="Folder">
+					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_MeasurementService Utility/MeasurementService Editor.lvlib"/>
+					<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_MeasurementService Utility/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="Templates" Type="Folder">
-				<Item Name="Malleable VIs" Type="Folder">
-					<Item Name="Get Resource Details.vim" Type="VI" URL="../_Measurement Plugin Converter/Templates/Malleable VIs/Get Resource Details.vim"/>
+				<Item Name="Controls" Type="Folder">
+					<Item Name="Combo Box.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/Combo Box.ctl"/>
+					<Item Name="String.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/String.ctl"/>
+					<Item Name="System String.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/System String.ctl"/>
 				</Item>
 				<Item Name="Docs" Type="Folder">
 					<Item Name="Error Logs.csv" Type="Document" URL="../_Measurement Plugin Converter/Templates/Docs/Error Logs.csv"/>
 					<Item Name="Event Logger.txt" Type="Document" URL="../_Measurement Plugin Converter/Templates/Docs/Event Logger.txt"/>
 					<Item Name="Folders to Ignore.txt" Type="Document" URL="../_Measurement Plugin Converter/Templates/Docs/Folders to Ignore.txt"/>
 				</Item>
-				<Item Name="Serializers" Type="Folder">
-					<Item Name="Serializer.vim" Type="VI" URL="../_Measurement Plugin Converter/Templates/Serializers/Serializer.vim"/>
-					<Item Name="Deserializer.vim" Type="VI" URL="../_Measurement Plugin Converter/Templates/Serializers/Deserializer.vim"/>
+				<Item Name="InstrumentStudio Project" Type="Folder">
+					<Item Name="Measurement.instudioproj" Type="Document" URL="../_Measurement Plugin Converter/Templates/InstrumentStudio Project/Measurement.instudioproj"/>
+					<Item Name="PinMap.pinmap" Type="Document" URL="../_Measurement Plugin Converter/Templates/InstrumentStudio Project/PinMap.pinmap"/>
+				</Item>
+				<Item Name="Malleable VIs" Type="Folder">
+					<Item Name="Get Resource Details.vim" Type="VI" URL="../_Measurement Plugin Converter/Templates/Malleable VIs/Get Resource Details.vim"/>
 				</Item>
 				<Item Name="Read Default Values" Type="Folder">
 					<Item Name="Read Default Values.vi" Type="VI" URL="../_Measurement Plugin Converter/Templates/Read Default Values/Read Default Values.vi"/>
 				</Item>
-				<Item Name="Controls" Type="Folder">
-					<Item Name="Combo Box.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/Combo Box.ctl"/>
-					<Item Name="System String.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/System String.ctl"/>
-					<Item Name="String.ctl" Type="VI" URL="../_Measurement Plugin Converter/Templates/Controls/String.ctl"/>
-				</Item>
-				<Item Name="InstrumentStudio Project" Type="Folder">
-					<Item Name="PinMap.pinmap" Type="Document" URL="../_Measurement Plugin Converter/Templates/InstrumentStudio Project/PinMap.pinmap"/>
-					<Item Name="Measurement.instudioproj" Type="Document" URL="../_Measurement Plugin Converter/Templates/InstrumentStudio Project/Measurement.instudioproj"/>
-				</Item>
-			</Item>
-			<Item Name="Measurement Plugin Generator" Type="Folder">
-				<Item Name="Service Generator" Type="Folder">
-					<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_MeasurementService Utility/MeasurementService Editor.lvlib"/>
-					<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_MeasurementService Utility/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
-				</Item>
-				<Item Name="Generator Helpers" Type="Folder">
-					<Item Name="Generator Helpers.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Measurement Plugin Generator/_Generator Helpers/Generator Helpers.lvlib"/>
+				<Item Name="Serializers" Type="Folder">
+					<Item Name="Deserializer.vim" Type="VI" URL="../_Measurement Plugin Converter/Templates/Serializers/Deserializer.vim"/>
+					<Item Name="Serializer.vim" Type="VI" URL="../_Measurement Plugin Converter/Templates/Serializers/Serializer.vim"/>
 				</Item>
 			</Item>
 			<Item Name="Utilities" Type="Folder">
-				<Item Name="Sequence Creation" Type="Folder">
-					<Item Name="Create Sequence.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Utilities/Sequence Creation/Create Sequence.lvlib"/>
-				</Item>
 				<Item Name="Event Logger" Type="Folder">
 					<Item Name="Event Logger.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Utilities/Event Logger/Event Logger.lvlib"/>
 				</Item>
-			</Item>
-			<Item Name="Converter" Type="Folder">
-				<Item Name="Path Functions" Type="Folder">
-					<Item Name="Path Functions.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Path Functions/Path Functions.lvlib"/>
-				</Item>
-				<Item Name="Converter Reusables" Type="Folder">
-					<Item Name="Converter Reusables.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Converter Reusables/Converter Reusables.lvlib"/>
-				</Item>
-				<Item Name="Queue Driver" Type="Folder">
-					<Item Name="Queue Driver.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Queue Driver/Queue Driver.lvlib"/>
-				</Item>
-				<Item Name="Multiple Converter" Type="Folder">
-					<Item Name="Multiple Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Multiple Converter/Multiple Converter.lvlib"/>
-				</Item>
-				<Item Name="Conversion Logic" Type="Folder">
-					<Item Name="Converter.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Converter/Conversion Logic/Converter.lvlib"/>
+				<Item Name="Sequence Creation" Type="Folder">
+					<Item Name="Create Sequence.lvlib" Type="Library" URL="../_Measurement Plugin Converter/Utilities/Sequence Creation/Create Sequence.lvlib"/>
 				</Item>
 			</Item>
 		</Item>
