@@ -76,7 +76,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Convert Measurement.vi" Type="VI" URL="../Convert Measurement.vi"/>
+		<Item Name="[Deprecated] Convert Measurement.vi" Type="VI" URL="../[Deprecated] Convert Measurement.vi"/>
 		<Item Name="Convert Measurements.vi" Type="VI" URL="../Convert Measurements.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
