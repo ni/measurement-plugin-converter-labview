@@ -84,10 +84,10 @@
 			<Item Name="Deserialize Connections in Wrapper - Single Converter.vi" Type="VI" URL="../SubVIs/Scripting VIs/Deserialize Connections in Wrapper - Single Converter.vi"/>
 			<Item Name="Deserialize Data in Meas UI.vi" Type="VI" URL="../SubVIs/Scripting VIs/Deserialize Data in Meas UI.vi"/>
 			<Item Name="Edit Connector Pane - Multiple Converter.vi" Type="VI" URL="../SubVIs/Scripting VIs/Edit Connector Pane - Multiple Converter.vi"/>
+			<Item Name="Edit Connector Pane - Single Converter.vi" Type="VI" URL="../SubVIs/Scripting VIs/Edit Connector Pane - Single Converter.vi"/>
 			<Item Name="Edit Connector Pane for Wrapper Indicators.vi" Type="VI" URL="../SubVIs/Scripting VIs/Edit Connector Pane for Wrapper Indicators.vi"/>
 			<Item Name="Edit Connector Pane for Wrapper IO Controls.vi" Type="VI" URL="../SubVIs/Scripting VIs/Edit Connector Pane for Wrapper IO Controls.vi"/>
 			<Item Name="Edit Connector Pane for Wrapper.vi" Type="VI" URL="../SubVIs/Scripting VIs/Edit Connector Pane for Wrapper.vi"/>
-			<Item Name="Edit Connector Pane.vi" Type="VI" URL="../SubVIs/Scripting VIs/Edit Connector Pane.vi"/>
 			<Item Name="Edit Plugin Type Specialization - Multiple Converter.vi" Type="VI" URL="../SubVIs/Scripting VIs/Edit Plugin Type Specialization - Multiple Converter.vi"/>
 			<Item Name="Edit Plugin Type Specialization - Single Converter.vi" Type="VI" URL="../SubVIs/Scripting VIs/Edit Plugin Type Specialization - Single Converter.vi"/>
 			<Item Name="Fetch the IO Controls.vi" Type="VI" URL="../SubVIs/Scripting VIs/Fetch the IO Controls.vi"/>
