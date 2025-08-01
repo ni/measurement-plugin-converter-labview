@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-08-01 05:16:43" Modified_Date="2025-08-01 06:13:50" Creator="vasenthi" Comments="" ID="54c8fda99a69d4b4e659d01bb4d214d6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-08-01 05:16:43" Modified_Date="2025-08-01 06:16:50" Creator="vasenthi" Comments="" ID="835224f223a02e668359b0b2716cbd7b">
   <Library_General_Settings>
     <Package_File_Name>serializers</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source\Serializers</Library_Source_Folder>
-    <Library_Output_Folder>..\Source</Library_Output_Folder>
+    <Library_Output_Folder>..\Build Output</Library_Output_Folder>
     <Company_Name>NI</Company_Name>
     <Library_Summary/>
     <Library_License>MIT</Library_License>
