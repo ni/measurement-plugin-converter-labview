@@ -1,9 +1,9 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-08-01 05:16:43" Modified_Date="2025-08-01 06:16:50" Creator="vasenthi" Comments="" ID="835224f223a02e668359b0b2716cbd7b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-08-01 05:16:43" Modified_Date="2025-08-01 06:25:21" Creator="vasenthi" Comments="" ID="f1d895ab75addf406fbbc13da76bd5f0">
   <Library_General_Settings>
     <Package_File_Name>serializers</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
-    <Library_Source_Folder>..\Source\Serializers</Library_Source_Folder>
+    <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Build Output</Library_Output_Folder>
     <Company_Name>NI</Company_Name>
     <Library_Summary/>
@@ -41,7 +41,7 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\Plug-In SDKs\Serializers</Path>
+        <Path>&lt;vi.lib&gt;\Plug-In SDKs</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -96,12 +96,30 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </QuickDrop_Plugins>
+      <Additional_Destination>
+        <Name>Palette Files</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;menus&gt;\Categories</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
         <Path>.</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Palette Files</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Palette Files/Measurement</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -114,6 +132,15 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Converter</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Manual Test Assets</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Palette Files/Measurement/readonly.txt</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
