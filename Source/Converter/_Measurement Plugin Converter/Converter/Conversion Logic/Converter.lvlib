@@ -26,7 +26,7 @@
 			<Item Name="Launch InstrumentStudio.vi" Type="VI" URL="../SubVIs/Common/Launch InstrumentStudio.vi"/>
 			<Item Name="Open Logic VI.vi" Type="VI" URL="../SubVIs/Common/Open Logic VI.vi"/>
 			<Item Name="Open VI.vi" Type="VI" URL="../SubVIs/Common/Open VI.vi"/>
-			<Item Name="Remove Empty Strings.vi" Type="VI" URL="../SubVIs/Common/Remove Empty Strings.vi"/>
+			<Item Name="Remove DAQ Strings.vi" Type="VI" URL="../SubVIs/Common/Remove DAQ Strings.vi"/>
 			<Item Name="Save Libraries and Projects.vi" Type="VI" URL="../SubVIs/Common/Save Libraries and Projects.vi"/>
 			<Item Name="Start Service.vi" Type="VI" URL="../SubVIs/Common/Start Service.vi"/>
 		</Item>
