@@ -17,7 +17,6 @@ TODO: Detail what testing has been done to ensure this submission meets requirem
 
 - [ ] Code follows coding standards
 - [ ] No breakpoints in code
-- [ ] VIs aligned to the top left corner
 - [ ] Manual tests conducted
 - [ ] Doesn’t break existing functionality
 - [ ] Documentation updated (if applicable)
