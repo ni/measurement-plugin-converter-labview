@@ -19,7 +19,7 @@
 		<Item Name="Classify Dependencies.vi" Type="VI" URL="../SubVIs/Classify Dependencies.vi"/>
 		<Item Name="Create Auto-Populating Folder.vi" Type="VI" URL="../SubVIs/Create Auto-Populating Folder.vi"/>
 		<Item Name="Create Directory for Dependency.vi" Type="VI" URL="../SubVIs/Create Directory for Dependency.vi"/>
-		<Item Name="Create Lib If Not Present.vi" Type="VI" URL="../SubVIs/Create Lib If Not Present.vi"/>
+		<Item Name="Create Lib if not Present.vi" Type="VI" URL="../SubVIs/Create Lib if not Present.vi"/>
 		<Item Name="Get all Dependencies.vi" Type="VI" URL="../SubVIs/Get all Dependencies.vi"/>
 		<Item Name="Get Common Dependencies.vi" Type="VI" URL="../SubVIs/Get Common Dependencies.vi"/>
 		<Item Name="Get Dependencies.vi" Type="VI" URL="../SubVIs/Get Dependencies.vi"/>
@@ -34,6 +34,7 @@
 		<Item Name="Replace Outside Typedef Const.vi" Type="VI" URL="../SubVIs/Replace Outside Typedef Const.vi"/>
 		<Item Name="Replace Outside Typedef Control.vi" Type="VI" URL="../SubVIs/Replace Outside Typedef Control.vi"/>
 		<Item Name="Replace Outside VIs.vi" Type="VI" URL="../SubVIs/Replace Outside VIs.vi"/>
+		<Item Name="Retry Dependency Copy.vi" Type="VI" URL="../SubVIs/Retry Dependency Copy.vi"/>
 		<Item Name="Save Project.vi" Type="VI" URL="../SubVIs/Save Project.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
