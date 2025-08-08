@@ -15,6 +15,7 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Add Copied Standalone VIs to Library.vi" Type="VI" URL="../SubVIs/Add Copied Standalone VIs to Library.vi"/>
 		<Item Name="Check Main Measurement for Instrument Drivers.vi" Type="VI" URL="../SubVIs/Check Main Measurement for Instrument Drivers.vi"/>
 		<Item Name="Classify Dependencies.vi" Type="VI" URL="../SubVIs/Classify Dependencies.vi"/>
 		<Item Name="Create Auto-Populating Folder.vi" Type="VI" URL="../SubVIs/Create Auto-Populating Folder.vi"/>
@@ -34,7 +35,6 @@
 		<Item Name="Replace Outside Typedef Const.vi" Type="VI" URL="../SubVIs/Replace Outside Typedef Const.vi"/>
 		<Item Name="Replace Outside Typedef Control.vi" Type="VI" URL="../SubVIs/Replace Outside Typedef Control.vi"/>
 		<Item Name="Replace Outside VIs.vi" Type="VI" URL="../SubVIs/Replace Outside VIs.vi"/>
-		<Item Name="Retry Dependency Copy.vi" Type="VI" URL="../SubVIs/Retry Dependency Copy.vi"/>
 		<Item Name="Save Project.vi" Type="VI" URL="../SubVIs/Save Project.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
