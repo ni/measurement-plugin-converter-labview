@@ -92,8 +92,8 @@ APIs are used to generate a template measurement plug-in, which serves as the st
 converting LabVIEW measurements.
 
 > [!NOTE]  
-> Since these APIs are copied from the original repository, they must be updated, they must be
-updated whenever changes are made to the source APIs.
+> Since these APIs are copied from the original repository, they must be updated whenever changes
+> are made to the source APIs.
 
 #### Templates and Utilities
 
