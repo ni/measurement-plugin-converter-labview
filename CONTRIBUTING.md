@@ -22,8 +22,8 @@ more details.
 
 ## Getting Started
 
-This repository contains source code for the Measurement Plug-In Converter tool and Data
-Serialization palette. It also contains the package build specifications for building the source
+This repository contains the source code for the Measurement Plug-In Converter tool and the Data
+Serialization palette. It also includes package build specifications for compiling the source code
 into a VI package.
 
 The source code can be found under the `Source` directory. The package definition files (.vipb) can
@@ -91,9 +91,9 @@ The `Measurement Plugin Generator` folder contains a copy of the scripting APIs 
 APIs are used to generate a template measurement plug-in, which serves as the starting point for
 converting LabVIEW measurements.
 
-[!NOTE]  
-Since these APIs are copied from the original repository, they must be updated, they must be updated
-whenever changes are made to the source APIs.
+> [!NOTE]  
+> Since these APIs are copied from the original repository, they must be updated, they must be
+updated whenever changes are made to the source APIs.
 
 #### Templates and Utilities
 
