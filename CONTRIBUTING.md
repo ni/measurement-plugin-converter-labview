@@ -22,10 +22,11 @@ more details.
 
 ## Getting Started
 
-This repository contains source code for the Measurement Plug-In Converter tool and package build
-specifications for building the source into a VI package.
+This repository contains source code for the Measurement Plug-In Converter tool and Data
+Serialization palette. It also contains the package build specifications for building the source
+into a VI package.
 
-The source code can be found under the `Source` directory. The package definition file (.vipb) can
+The source code can be found under the `Source` directory. The package definition files (.vipb) can
 be found under the `Build Specs` directory.
 
 ## Prerequisites
@@ -58,18 +59,61 @@ To contribute to this project, it is recommended that you follow these steps:
 2. Send a GitHub Pull Request to the main repository's master branch. GitHub Pull Requests are the
    expected method of code collaboration on this project.
 
-## Building the Measurement Plug-In Converter package
+## Building the LabVIEW packages
 
-To build the package:
+The source code is built into two LabVIEW packages
 
-1. Open the VIPM specification file (.vipb) under the [Build
+* `ni_measurement_plugin_converter`
+* `data_serialization`
+
+To build the packages:
+
+1. Open the desired VIPM specification file (.vipb) under the [Build
    Specs](https://github.com/ni/measurement-plugin-converter-labview/tree/main/Build%20Specs) folder
    using VIPM 2021 or later
 2. Click Build. A `.vip` file will be created in the `Build Output` folder under the repository's
-   root directory
+   root directory.
 
-The `ni_measurement_plugin_converter` package contains the libraries and template files required to
+### `ni_measurement_plugin_converter` Package
+
+The `ni_measurement_plugin_converter` package provides the libraries and template files needed to
 convert native LabVIEW measurements into measurement plug-ins.
+
+#### Converter
+
+The `Converter` folder contains scripting code that automates the conversion of LabVIEW measurements
+into measurement plug-ins.
+
+#### Measurement Plugin Generator
+
+The `Measurement Plugin Generator` folder contains a copy of the scripting APIs from the
+[measurement-plugin-labview](https://github.com/ni/measurement-plugin-labview) repository. These
+APIs are used to generate a template measurement plug-in, which serves as the starting point for
+converting LabVIEW measurements.
+
+[!NOTE]  
+Since these APIs are copied from the original repository, they must be updated, they must be updated
+whenever changes are made to the source APIs.
+
+#### Templates and Utilities
+
+The `Templates` and `Utilities` folders contain the necessary template files and utilities used
+during the conversion process.
+
+---
+
+### `data_serialization` Package
+
+#### Data Serialization
+
+The `Data Serialization` folder includes `.vim` files for serializing and deserializing cluster data
+to and from strings. It also contains a `.mnu` file to expose these `.vim` files in the LabVIEW
+palette.
+
+#### Palette Files
+
+The `Palette Files` folder acts as a placeholder for configuring the deployment location of the
+`Data Serialization` palette.
 
 ## Testing
 
