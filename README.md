@@ -32,31 +32,42 @@ release assets.
 ## How to Convert LabVIEW Measurements?
 
 1. Open LabVIEW and navigate to `Tools` → `Plug-In SDKs` → `Measurements` → `Convert Measurements...`.
+   ![Launch Tool](./docs/Images/README/Launch%20Tool.png)
 2. Select the LabVIEW project in which the measurements are to be converted
 into measurement plugins.  
    1. A new LabVIEW project will be created if the
 project does not exist.
 3. Select measurement VI or the folder containing the measurements and
 click `Next`.
+   ![Home Page](./docs/Images/README/Home%20Page.png)
 4. All the VIs that are present in the specified directory will be listed.
-   1. Select the measurements to be migrated and click `Next`.
+   1. Select the measurements to be converted and click `Next`.
+   ![Measurement Selection Page](./docs/Images/README/Measurement%20Selection%20Page.png)
 5. [Optional] Edit the selected plug-in names.
 6. Click `Start Conversion`.
+   ![Review Plug-in Name Page](./docs/Images/README/Review%20Plug-in%20Name%20Page.png)
 7. Once the conversion is complete, the LabVIEW project with the converted measurements will open and the conversion status will be shown on the conversion tool window.
+   ![Conversion Status Page](./docs/Images/README/Conversion%20Status%20Page.png)
 8. Click `Review Plug-ins`. All the successfully converted measurements will be listed in the dropdown.
    1. Select a plug-in from the dropdown to review the plug-in's Measurement UI, Measurement Logic and Type Specialization VIs.
+   ![Review Plug-in Page](./docs/Images/README/Review%20Plug-in%20Page.png)
 9. Click `Start Next Conversion` to convert the next set of measurements.
 
 ## How to Connect the Wires in Measurement Logic VI?
 
 1. Wire the Pin Names to the corresponding input of the `Get Resource Details.vim`.
+   ![Get Resource Details](./docs/Images/README/Get%20Resource%20Details.png)
 2. Connect the channel output of the `Get Resource Details.vim` to the channel name for the measurement using the channel-specific instruments.
+   ![Connect Channel Wires](./docs/Images/README/Connect%20Channel%20Wires.png)
 3. Connect the corresponding session output of the `Get Resource Details.vim` to the respective resource name in the wrapper.
+   ![Connect Session Wires](./docs/Images/README/Connect%20Session%20Wires.png)
 
 ### Additional Steps for VISA Instruments
 
 1. In `Measurement Logic.vi`, the instrument type id must be replaced with the instrument name specified in the name.
+   ![Measurement Logic VISA](./docs/Images/README/Measurement%20Logic%20VISA.png)
 2. In `Type Specialization.vi`, instrument type should be instrument name specified in the pinmap.
+   ![Type Specialization VISA](./docs/Images/README/Type%20Specialization%20VISA.png)
 
 ## Recommended Practices
 
