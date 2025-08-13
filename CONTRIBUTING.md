@@ -57,7 +57,7 @@ To contribute to this project, it is recommended that you follow these steps:
 
 ## Building the LabVIEW packages
 
-The source code is built into two LabVIEW packages
+The source code is deployed using two VI packages (*.vip)
 
 * `ni_measurement_plugin_converter`
 * `data_serialization`
