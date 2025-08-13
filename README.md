@@ -110,8 +110,8 @@ release assets.
 4. Post conversion, LabVIEW project may not be saved. Save the project.
 5. Measurements with complex controls like trees, table, list box, sub panel, class object are not
    supported.
-6. The low-level, instrument-specific Initialize and Close APIs located inside the case structure of
-   the simple measurement VI are not disabled after conversion.
+6. Low-level, instrument-specific Initialize and Close APIs located inside any case structure, for
+   loop, or while loop in the simple measurement VIs will not be disabled during conversion.
 7. Copying the data from TestStand and pasting the data in InstrumentStudio doesn’t update the
    cluster controls.
 8. Post conversion, Typedef constants placed inside the VI might not be linked to its typedef.
