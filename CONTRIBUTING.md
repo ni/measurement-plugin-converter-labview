@@ -22,9 +22,7 @@ more details.
 
 ## Getting Started
 
-This repository contains the source code for the Measurement Plug-In Converter tool and the Data
-Serialization palette. It also includes package build specifications for compiling the source code
-into a VI package.
+This repository hosts the source code and VI package build specifications for the Measurement Plug-In Converter tool and the Data Serialization palette.
 
 The source code can be found under the `Source` directory. The package definition files (.vipb) can
 be found under the `Build Specs` directory.
