@@ -39,7 +39,7 @@ To download the Measurement Plug-In Converter for LabVIEW source, clone the Git 
 git clone https://github.com/ni/measurement-plugin-converter-labview.git
 ```
 
-If you already have the Git repository on your local PC, you can update it
+If already available locally, update it
 
 ```cmd
 git checkout main
