@@ -101,15 +101,17 @@ release assets.
 
 ## Known Issues
 
-1. Measurements with Resource controls used in clusters are not converted properly.
+1. Measurements with IO Resource Name controls embedded inside clusters are not properly converted
+   as the cluster appears as a string in the measurement configuration, and no combo box control is
+   created to input the equivalent pin name.
 2. Measurements VI with splitters in the FP results in a messy `Measurement UI.vi`.
 3. Post conversion, some dependencies might be loaded from source location. To resolve that, add the
    dependencies from the folder found parallel to the measurement library.
 4. Post conversion, LabVIEW project may not be saved. Save the project.
 5. Measurements with complex controls like trees, table, list box, sub panel, class object are not
    supported.
-6. The sub diagram containing the Initialize and Close APIs in the diagram disable structure might
-   not disabled post conversion.
+6. The low-level, instrument-specific Initialize and Close APIs located inside the case structure of
+   the simple measurement VI are not disabled after conversion.
 7. Copying the data from TestStand and pasting the data in InstrumentStudio doesn’t update the
    cluster controls.
 8. Post conversion, Typedef constants placed inside the VI might not be linked to its typedef.
