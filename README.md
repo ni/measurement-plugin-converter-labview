@@ -101,9 +101,7 @@ release assets.
 
 ## Known Issues
 
-1. Measurements with IO Resource Name controls embedded inside clusters are not properly converted
-   as the cluster appears as a string in the measurement configuration, and no combo box control is
-   created to input the equivalent pin name.
+1. Measurements with IO Resource Name controls inside clusters are not converted as combo box control to list pin names.
 2. Measurements VI with splitters in the FP results in a messy `Measurement UI.vi`.
 3. Post conversion, some dependencies might be loaded from source location. To resolve that, add the
    dependencies from the folder found parallel to the measurement library.
