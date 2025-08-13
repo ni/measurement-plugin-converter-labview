@@ -59,8 +59,8 @@ To contribute to this project, it is recommended that you follow these steps:
 
 The source code is deployed using two VI packages (*.vip)
 
-* `ni_measurement_plugin_converter`
-* `data_serialization`
+1. `ni_measurement_plugin_converter`
+1. `data_serialization`
 
 To build the packages:
 
