@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-21 20:03:51" Modified_Date="2025-08-13 15:58:43" Creator="sabthagiri.murugan" Comments="" ID="fdd0a526ef516e4808b33ee7fea8422f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-21 20:03:51" Modified_Date="2025-08-13 19:46:49" Creator="sabthagiri.murugan" Comments="" ID="ab91e5d0833ff8f3df8efce61cf640a9">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_converter</Package_File_Name>
     <Library_Version>2.1.0.1</Library_Version>
@@ -21,6 +21,7 @@
       <External_Dependencies>ni_lib_labview_grpc_servicer &gt;= 1.2.5.1</External_Dependencies>
       <External_Dependencies>ni_measurement_plugin_sdk_service &gt;= 3.1.0.1</External_Dependencies>
       <External_Dependencies>ni_protobuf_types &gt;= 1.0.0.1</External_Dependencies>
+      <Additional_External_Dependencies>data_serialization &gt;=1.0.0.1</Additional_External_Dependencies>
       <Direct_Dependencies>ni_lib_labview_grpc_library-1.2.5.1</Direct_Dependencies>
       <Direct_Dependencies>ni_lib_labview_grpc_servicer-1.2.5.1</Direct_Dependencies>
       <Direct_Dependencies>ni_measurement_plugin_sdk_service-3.1.0.1</Direct_Dependencies>
@@ -36,8 +37,8 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Measurement Plug-In Converter.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary/>
-      <Description/>
+      <One_Line_Description_Summary>Provides tooling for converting LabVIEW-based measurements into LabVIEW measurement plug-ins.</One_Line_Description_Summary>
+      <Description>This package offers a tool to convert simple, standards-compliant LabVIEW-based measurements into LabVIEW measurement plug-ins. The converter utility is accessible from the Tools menu.</Description>
       <Copyright/>
       <Packager>NI</Packager>
       <URL>https://github.com/ni/measurement-plugin-converter-labview</URL>
