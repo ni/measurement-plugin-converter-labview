@@ -108,7 +108,8 @@ release assets.
 4. Post conversion, LabVIEW project may not be saved. Save the project.
 5. Measurements with complex controls like trees, table, list box, sub panel, class object are not
    supported.
-6. Initialize and Close APIs inside the case structure are not disabled post conversion.
+6. The sub diagram containing the Initialize and Close APIs in the diagram disable structure might
+   not disabled post conversion.
 7. Copying the data from TestStand and pasting the data in InstrumentStudio doesn’t update the
    cluster controls.
 8. Post conversion, Typedef constants placed inside the VI might not be linked to its typedef.
