@@ -33,8 +33,7 @@ This repository hosts the source code and VI package build specifications for th
 
 ## Clone or Update the Git Repository
 
-To download the Measurement Plug-In Converter for LabVIEW source, clone its Git repository to your
-local PC.
+To download the Measurement Plug-In Converter for LabVIEW source, clone the Git repository locally.
 
 ```cmd
 git clone https://github.com/ni/measurement-plugin-converter-labview.git
