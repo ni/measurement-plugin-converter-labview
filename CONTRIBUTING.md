@@ -22,9 +22,11 @@ more details.
 
 ## Getting Started
 
-This repository hosts the source code and VI package build specifications for the Measurement Plug-In Converter tool and the Data Serialization palette.
+This repository hosts the source code and VI package build specifications for the Measurement
+Plug-In Converter tool and the Data Serialization palette.
 
-`.\Source` contains the source code and `.\Build Specs` contains the package build definition files (.vipb).
+`.\Source` contains the source code and `.\Build Specs` contains the package build definition files
+(.vipb).
 
 ## Prerequisites
 
@@ -60,7 +62,7 @@ To contribute to this project, it is recommended that you follow these steps:
 The source code is deployed using two VI packages (*.vip)
 
 1. `ni_measurement_plugin_converter`
-1. `data_serialization`
+2. `data_serialization`
 
 To build the packages:
 
