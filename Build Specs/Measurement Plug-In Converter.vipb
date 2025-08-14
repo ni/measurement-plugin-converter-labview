@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-21 20:03:51" Modified_Date="2025-08-13 19:46:49" Creator="sabthagiri.murugan" Comments="" ID="ab91e5d0833ff8f3df8efce61cf640a9">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-21 20:03:51" Modified_Date="2025-08-14 15:12:38" Creator="lvadmin" Comments="" ID="6c304942c7e19d03a8b7a1b7cbaccb24">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_converter</Package_File_Name>
     <Library_Version>2.1.0.1</Library_Version>
@@ -37,7 +37,7 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Measurement Plug-In Converter.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>Provides tooling for converting LabVIEW-based measurements into LabVIEW measurement plug-ins.</One_Line_Description_Summary>
+      <One_Line_Description_Summary>Provides tool for converting LabVIEW-based measurements into LabVIEW measurement plug-ins.</One_Line_Description_Summary>
       <Description>This package offers a tool to convert simple, standards-compliant LabVIEW-based measurements into LabVIEW measurement plug-ins. The converter utility is accessible from the Tools menu.</Description>
       <Copyright/>
       <Packager>NI</Packager>
