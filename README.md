@@ -16,6 +16,11 @@
 The Measurement Plug-In Converter is a tool to convert LabVIEW (*.vi) measurements into [measurement
 plug-ins](https://www.ni.com/docs/en-US/bundle/measurementplugins/page/measurement-plugins.html).
 
+> [!NOTE]  
+> The tool does not fully automate the conversion process. It converts the selected LabVIEW
+> measurements into plug-ins to a certain extent, but some manual wiring is required to complete the
+> conversion.
+
 ## Software support
 
 - [LabVIEW 2021 SP1](https://www.ni.com/en/support/downloads/software-products/download.labview.html) or later
